@@ -1,0 +1,1873 @@
+   Input file: Rocky_core_t_109200.pqi
+  Output file: ./Rocky_core/Rocky_core_t_109200.txt
+Database file: /Users/aamsler/Desktop/phreeqc-3.5.0-14000/database/core10.dat
+
+------------------
+Reading data base.
+------------------
+
+	LLNL_AQUEOUS_MODEL_PARAMETERS
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	    KNOBS
+	    iterations     2000
+	    tolerance      1e-12
+	    step_size      100
+	    pe_step_size   10
+	    diagonal_scale true
+	    END
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+	    SOLUTION 1 Determined bu the LV equilibrium
+	    temp  0.01  # celcius
+	    press 411.6629954222756 # atm
+	    pH 6.438267137106407 charge
+	    pe -5.423267137106406
+	    water 0.2702702702702703
+	    units		mol/kgw
+	    C(-4)	  0.012468343047899273
+	    C(4)	  0.001027213954606
+	    N(-3)     0.006331695436127962
+	  GAS_PHASE 1 No initial gas, formation if sum (partial pressures)>pressure
+		fixed_pressure
+		pressure 	 411.6629954222756
+		temperature 0.01
+		C2H4(g)        	0.0
+	  	C2H6(g)		0.0
+		C3H8(g)		0.0
+		CO(g)          	0.0
+		CO2(g)          0.0
+		H2(g) 		0.0
+	 	H2O(g)         	0.0
+		H2S(g)         	0.0
+		N2(g)		0.0
+		NH3(g)         	0.0
+		NO(g)           0.0
+		NO2(g)          0.0
+		O2(g)          	0.0
+		SO2(g) 		0.0
+	EQUILIBRIUM_PHASES 1 CM chondrite
+		Antigorite		0.0	0.063	# Mg48Si34O85(OH)62 /16
+		Cronstedtite-7A		0.0	0.63	# Fe2Fe2SiO5(OH)4
+		Nontronite-K		0.0	0.0315	# K.33Fe2Al.33Si3.67H2O12
+		Nontronite-Na		0.0	0.3	# Na.33Fe2Al.33Si3.67H2O12
+		Clinochlore-14A		0.0	0.15 	# Mg5Al2Si3O10(OH)8
+		Hydroxyapatite		0.0	0.010	# Ca5(OH)(PO4)3
+		Calcite			0.0	0.168	# CaCO3
+		Halite			0.0	0.0045	# NaCl
+		Magnetite		0.0	0.06	# Fe3O4
+		Wollastonite		0.0	0.105	# CaSiO3
+		Na2SiO3			0.0	0.03	# Na2SiO3
+		Forsterite		0.0	0.325	# Mg2SiO4
+		Tephroite		0.0	0.016	# Mn2SiO4, Allen & Mason 1973, proxy for substitution in olivine and sulfide
+		Chromite		0.0	0.031	# FeCr2O4, Metzler+1992
+		Mo			0.0	1.5e-5  # Mo
+		Brucite			0.0	0.375 	# Mg(OH)2, 5*0.075
+		Troilite		0.0	0.72	# FeS, 6*0.075+0.270
+		Millerite		0.0	0.2	# NiS, pentlandite proxy
+		Covellite		0.0	0.0018	# CuS
+		Sphalerite		0.0	0.0029	# ZnS
+		Rutile			0.0	0.012	# TiO2
+		KerogenC128		0.0	0.0092	# C128H68O7
+		Pyridine		0.0	0.052	# C5H5N
+		[(6)(CB)(CB)S]		0.0	0.105	# Aromatic S
+		[(aro)-O-(aro)]		0.0	0.205	# Aromatic O
+		B			0.0	5.5e-5	# B
+		Co			0.0	0.0097	# Co
+		Eu			0.0	4.95e-7	# EuO
+		Gd			0.0	1.74e-6	# Gd
+		Eucryptite		0.0	1.95e-4	# LiAlSiO4
+		Sc			0.0	1.8e-4	# Sc
+		Sm			0.0	1.32e-6	# Sm
+		Thorianite		0.0	1.7e-7	# ThO2
+		Uraninite		0.0	4.6e-8	# UO2
+	  Afwillite   			0	0	# Ca3Si2O4(OH)6
+	  Akermanite   			0	0	# Ca2MgSi2O7
+	  Al           			0	0	# Al
+	  Al2(SO4)3    			0	0	# Al2(SO4)3
+	  Alabandite   			0	0	# MnS
+	  Albite        		0	0	# NaAlSi3O8
+	  Albite_high  			0	0	# NaAlSi3O8
+	  Albite_low 			0	0	# NaAlSi3O8
+	  Alum-K       			0	0	# KAl(SO4)2:12H2O
+	  Alunite       		0	0	# KAl3(OH)6(SO4)2
+	  Amesite-14A  			0	0	# Mg4Al4Si2O10(OH)8
+	  Analcime    			0	0	# Na.96Al.96Si2.04O6:H2O
+	  Andalusite   			0	0	# Al2SiO5
+	  Andradite  			0	0	# Ca3Fe2(SiO4)3
+	  Anhydrite  			0	0	# CaSO4
+	  Annite          		0	0	# KFe3AlSi3O10(OH)2
+	  Anorthite       		0	0	# CaAl2(SiO4)2
+	  Anthophyllite   		0	0	# Mg7Si8O22(OH)2
+	  Aragonite       		0	0	# CaCO3
+	  Arcanite       		0	0	# K2SO4
+	  Artinite        		0	0	# Mg2CO3(OH)2:3H2O
+	  Atacamite       		0	0	# Cu4Cl2(OH)6
+	  Azurite        		0	0	# Cu3(CO3)2(OH)2
+	  B2O3           		0	0	# B2O3
+	  Bassanite      		0	0	# CaSO4:0.5H2O
+	  Bassetite      		0	0	# Fe(UO2)2(PO4)2
+	  Beidellite-Ca   		0	0	# Ca.175Al2.35Si3.65O10(OH)2
+	  Beidellite-Fe   		0	0	# Fe.175Al2.35Si3.65O10(OH)2
+	  Beidellite-K   		0	0	# K.35Al2.35Si3.65O10(OH)2
+	  Beidellite-Mg   		0	0	# Mg.175Al2.35Si3.65O10(OH)2
+	  Beidellite-Na  		0	0	# Na.35Al2.35Si3.65O10(OH)2
+	  Berlinite       		0	0	# AlPO4
+	  Bieberite       		0	0	# CoSO4:7H2O
+	  Bixbyite        		0	0	# Mn2O3
+	  Boehmite         		0	0	# AlO2H
+	  Borax          		0	0	# Na2(B4O5(OH)4):8H2O
+	  Boric_acid     		0	0	# B(OH)3
+	  Bornite          		0	0	# Cu5FeS4
+	  Brezinaite      		0	0	# Cr3S4
+	  Brochantite   		0	0	# Cu4(SO4)(OH)6
+	  Bunsenite       		0	0	# NiO
+	  C               		0	0	# C
+	  Ca              		0	0	# Ca
+	  Ca-Al_Pyroxene  		0	0	# CaAl2SiO6
+	  Ca3Al2O6       		0	0	# Ca3Al2O6
+	  Ca4Al2Fe2O10   		0	0	# Ca4Al2Fe2O10
+	  CaAl2O4         		0	0	# CaAl2O4
+	  CaAl4O7         		0	0	# CaAl4O7
+	  Cattierite     		0	0	# CoS2
+	  CaUO4           		0	0	# CaUO4
+	  Celadonite       		0	0	# KMgAlSi4O10(OH)2
+	  Chalcanthite    		0	0	# CuSO4:5H2O
+	  Chalcedony      		0	0	# SiO2
+	  Chalcocite       		0	0	# Cu2S
+	  Chalcocyanite   		0	0	# CuSO4
+	  Chalcopyrite     		0	0	# CuFeS2
+	  Chamosite         		0	0	# Fe5Al2Si3O10(OH)8
+	  Chloromagnesite 		0	0	# MgCl2
+	  Chrysotile       		0	0	# Mg3Si2O5(OH)4
+	  Clinochlore-7A   		0	0	# Mg5Al2Si3O10(OH)8
+	  Clinoptilolite-Ca 		0	0	# Ca1.7335Al3.45Fe.017Si14.533O36:10.922H2O
+	  Clinoptilolite-K 		0	0	# K3.467Al3.45Fe.017Si14.533O36:10.922H2O
+	  Clinoptilolite-Na 		0	0	# Na3.467Al3.45Fe.017Si14.533O36:10.922H2O
+	  Clinozoisite     		0	0	# Ca2Al3Si3O12(OH)
+	  Co2SiO4         		0	0	# Co2SiO4
+	  CoCl2           		0	0	# CoCl2
+	  CoCl2:2H2O      		0	0	# CoCl2:2H2O
+	  CoCl2:6H2O      		0	0	# CoCl2:6H2O
+	  Coesite          		0	0	# SiO2
+	  CoFe2O4          		0	0	# CoFe2O4
+	  Coffinite       		0	0	# USiO4
+	  CoO              		0	0	# CoO
+	  Cordierite_anhyd		0	0	# Mg2Al4Si5O18
+	  Cordierite_hydr 		0	0	# Mg2Al4Si5O18:H2O
+	  Corundum         		0	0	# Al2O3
+	  CoS              		0	0	# CoS
+	  CoSO4           		0	0	# CoSO4
+	  CoSO4:6H2O      		0	0	# CoSO4:6H2O
+	  CoSO4:H2O       		0	0	# CoSO4:H2O
+	  Cr              		0	0	# Cr
+	  CrCl3           		0	0	# CrCl3
+	  Cristobalite(alpha)  		0	0	# SiO2
+	  Cristobalite(beta)  		0	0	# SiO2
+	  CrO2            		0	0	# CrO2
+	  CrO3            		0	0	# CrO3
+	  CrS            		0	0	# CrS
+	  Cu              		0	0	# Cu
+	  CuCl2           		0	0	# CuCl2
+	  CuCr2O4         		0	0	# CuCr2O4
+	  Cuprite         		0	0	# Cu2O
+	  Daphnite-14A    		0	0	# Fe5AlAlSi3O10(OH)8
+	  Daphnite-7A      		0	0	# Fe5AlAlSi3O10(OH)8
+	  Dawsonite       		0	0	# NaAlCO3(OH)2
+	  Delafossite     		0	0	# CuFeO2
+	  Diaspore         		0	0	# AlHO2
+	  Dicalcium_silicate  		0	0	# Ca2SiO4
+	  Diopside         		0	0	# CaMgSi2O6
+	  Dioptase        		0	0	# CuSiO2(OH)2
+	  Dolomite        		0	0	# CaMg(CO3)2
+	  Dolomite-dis    		0	0	# CaMg(CO3)2
+	  Dolomite-ord    		0	0	# CaMg(CO3)2
+	  Enstatite        		0	0	# MgSiO3
+	  Epidote          		0	0	# Ca2FeAl2Si3O12OH
+	  Epidote-ord      		0	0	# FeCa2Al2(OH)(SiO4)3
+	  Eskolaite       		0	0	# Cr2O3
+	  Ettringite     		0	0	# Ca6Al2(SO4)3(OH)12:26H2O
+	  Eu(OH)3          		0	0	# Eu(OH)3
+	  Eu2(SO4)3:8H2O 		0	0	# Eu2(SO4)3:8H2O
+	  Eu2O3(cubic)   		0	0	# Eu2O3
+	  Eu2O3(monoclinic) 		0	0	# Eu2O3
+	  Eu3O4          		0	0	# Eu3O4
+	  EuCl2           		0	0	# EuCl2
+	  EuCl3           		0	0	# EuCl3
+	  EuCl3:6H2O      		0	0	# EuCl3:6H2O
+	  EuOCl          		0	0	# EuOCl
+	  EuS             		0	0	# EuS
+	  EuSO4           		0	0	# EuSO4
+	  Fayalite       		0	0	# Fe2SiO4
+	  Fe               		0	0	# Fe
+	  Fe(OH)2         		0	0	# Fe(OH)2
+	  Fe(OH)3         		0	0	# Fe(OH)3
+	  Fe2(SO4)3      		0	0	# Fe2(SO4)3
+	  FeO              		0	0	# FeO
+	  Ferrite-Ca      		0	0	# CaFe2O4
+	  Ferrite-Cu      		0	0	# CuFe2O4
+	  Ferrite-Dicalcium 		0	0	# Ca2Fe2O5
+	  Ferrite-Mg       		0	0	# MgFe2O4
+	  Ferrite-Zn       		0	0	# ZnFe2O4
+	  Ferrosilite      		0	0	# FeSiO3
+	  FeSO4          		0	0	# FeSO4
+	  Foshagite        		0	0	# Ca4Si3O9(OH)2:0.5H2O
+	  Gehlenite       		0	0	# Ca2Al2SiO7
+	  Gibbsite         		0	0	# Al(OH)3
+	  Goethite         		0	0	# FeOOH
+	  Greenalite        		0	0	# Fe3Si2O5(OH)4
+	  Grossular       		0	0	# Ca3Al2(SiO4)3
+	  Gypsum          		0	0	# CaSO4:2H2O
+	  Gyrolite        		0	0	# Ca2Si3O7(OH)2:1.5H2O
+	  Hatrurite       		0	0	# Ca3SiO5
+	  Hausmannite     		0	0	# Mn3O4
+	  Heazlewoodite    		0	0	# Ni3S2
+	  Hedenbergite     		0	0	# CaFe(SiO3)2
+	  Hematite         		0	0	# Fe2O3
+	  Hercynite        		0	0	# FeAl2O4
+	  Hillebrandite    		0	0	# Ca2SiO3(OH)2:0.17H2O
+	  Huntite         		0	0	# CaMg3(CO3)4
+	  Hydromagnesite  		0	0	# Mg5(CO3)4(OH)2:4H2O
+	  Hydrophilite    		0	0	# CaCl2
+	  Ice              		0	0	# H2O
+	  Ilmenite       		0	0	# FeTiO3
+	  Jadeite         		0	0	# NaAl(SiO3)2
+	  Jarosite        		0	0	# KFe3(SO4)2(OH)6
+	  K              		0	0	# K
+	  K-Feldspar      		0	0	# KAlSi3O8
+	  K2O             		0	0	# K2O
+	  KAl(SO4)2       		0	0	# KAl(SO4)2
+	  Kalsilite        		0	0	# KAlSiO4
+	  Kaolinite       		0	0	# Al2Si2O5(OH)4
+	  KerogenC292    		0	0	# C292H288O12
+	  KerogenC515    		0	0	# C515H596O72
+	  Kyanite          		0	0	# Al2SiO5
+	  Larnite          		0	0	# Ca2SiO4
+	  Laumontite      		0	0	# CaAl2Si4O12:4H2O
+	  Lawrencite			0	0	# FeCl2
+	  Lawsonite			0	0	# CaAl2Si2O7(OH)2:H2O
+	  Li				0	0	# Li
+	  Lime				0	0	# CaO
+	  Linnaeite			0	0	# Co3S4
+	  Lizardite			0	0	# Mg3Si2O5(OH)4
+	  Lopezite			0	0	# K2Cr2O7
+	  Magnesiochromite		0	0	# MgCr2O4
+	  Magnesite			0	0	# MgCO3
+	  Malachite			0	0	# Cu2CO3(OH)2
+	  Manganosite			0	0	# MnO
+	  Margarite			0	0	# CaAl4Si2O10(OH)2
+	  Maximum_Microcline		0	0	# KAlSi3O8
+	  Mayenite			0	0	# Ca12Al14O33
+	  Melanterite			0	0	# FeSO4:7H2O
+	  Merwinite			0	0	# MgCa3(SiO4)2
+	  Mesolite			0	0	# Na.676Ca.657Al1.99Si3.01O10:2.647H2O
+	  Mg				0	0	# Mg
+	  MgOHCl			0	0	# MgOHCl
+	  MgSO4				0	0	# MgSO4
+	  Minnesotaite			0	0	# Fe3Si4O10(OH)2
+	  Mirabilite			0	0	# Na2SO4:10H2O
+	  Mn				0	0	# Mn
+	  Mn(OH)2(am)			0	0	# Mn(OH)2
+	  MnCl2:2H2O			0	0	# MnCl2:2H2O
+	  MnCl2:4H2O			0	0	# MnCl2:4H2O
+	  MnCl2:H2O			0	0	# MnCl2:H2O
+	  MnSO4				0	0	# MnSO4
+	  Molysite			0	0	# FeCl3
+	  Monohydrocalcite		0	0	# CaCO3:H2O
+	  Monticellite			0	0	# CaMgSiO4
+	  Montmor-Ca			0	0	# Ca.175Mg.35Al1.65Si4O10(OH)2
+	  Montmor-K			0	0	# K.35Mg.35Al1.65Si4O10(OH)2
+	  Montmor-Mg			0	0	# Mg.525Al1.65Si4O10(OH)2
+	  Montmor-Na			0	0	# Na.35Mg.35Al1.65Si4O10(OH)2
+	  Mordenite			0	0	# Ca.2895Na.361Al.94Si5.06O12:3.468H2O
+	  Morenosite			0	0	# NiSO4:7H2O
+	  Muscovite			0	0	# KAl3Si3O10(OH)2
+	  Na				0	0	# Na
+	  Na2CO3			0	0	# Na2CO3
+	  Na2CO3:7H2O			0	0	# Na2CO3:7H2O
+	  Na2Cr2O7			0	0	# Na2Cr2O7
+	  Na2CrO4			0	0	# Na2CrO4
+	  Na2O				0	0	# Na2O
+	  Na2U2O7			0	0	# Na2U2O7
+	  NaFeO2			0	0	# NaFeO2
+	  Nahcolite			0	0	# NaHCO3
+	  Nantokite			0	0	# CuCl
+	  Natrolite			0	0	# Na2Al2Si3O10:2H2O
+	  Natron			0	0	# Na2CO3:10H2O
+	  Natrosilite			0	0	# Na2Si2O5
+	  NaUO3				0	0	# NaUO3
+	  Nepheline			0	0	# NaAlSiO4
+	  Nesquehonite			0	0	# MgCO3:3H2O
+	  NH4-feldspar			0	0	# NH4AlSi3O8
+	  NH4-muscovite			0	0	# NH4Al3Si3O10(OH)2
+	  NH4Cl				0	0	# NH4Cl
+	  NH4HCO3			0	0	# NH4HCO3
+	  Ni				0	0	# Ni
+	  Ni(OH)2			0	0	# Ni(OH)2
+	  Ni2SiO4			0	0	# Ni2SiO4
+	  Nickelbischofite		0	0	# NiCl2:6H2O
+	  NiCl2				0	0	# NiCl2
+	  NiCl2:2H2O			0	0	# NiCl2:2H2O
+	  Ningyoite			0	0	# CaUP2O8:2H2O
+	  NiSO4				0	0	# NiSO4
+	  NiSO4:6H2O(alpha)		0	0	# NiSO4:6H2O
+	  Niter				0	0	# KNO3
+	  Nontronite-Ca			0	0	# Ca.175Fe2Al.35Si3.65H2O12
+	  Nontronite-Mg			0	0	# Mg.175Fe2Al.35Si3.65H2O12
+	  Okenite			0	0	# CaSi2O4(OH)2:H2O
+	  P				0	0	# P
+	  Paragonite			0	0	# NaAl3Si3O10(OH)2
+	  Pargasite			0	0	# NaCa2Al3Mg4Si6O22(OH)2
+	  Periclase			0	0	# MgO
+	  Petalite			0	0	# LiAlSi4O10
+	  Phlogopite			0	0	# KAlMg3Si3O10(OH)2
+	  Polydymite			0	0	# Ni3S4
+	  Portlandite			0	0	# Ca(OH)2
+	  Prehnite			0	0	# Ca2Al2Si3O10(OH)2
+	  Pseudowollastonite		0	0	# CaSiO3
+	  Pyrite			0	0	# FeS2
+	  Pyrolusite			0	0	# MnO2
+	  Pyrophyllite			0	0	# Al2Si4O10(OH)2
+	  Pyrrhotite			0	0	# FeS
+	  Quartz			0	0	# SiO2
+	  Rankinite			0	0	# Ca3Si2O7
+	  Rhodochrosite			0	0	# MnCO3
+	  Rhodonite			0	0	# MnSiO3
+	  Ripidolite			0	0	# Mg3Fe2Al2Si3O10(OH)8
+	  Rutherfordine			0	0	# UO2CO3
+	  S				0	0	# S
+	  Saleeite			0	0	# Mg(UO2)2(PO4)2
+	  Sanidine_high			0	0	# KAlSi3O8
+	  Saponite-Fe-Ca		0	0	# Ca.175Fe3Al.35Si3.65O10(OH)2
+	  Saponite-Fe-K			0	0	# K.35Fe3Al.35Si3.65O10(OH)2
+	  Saponite-Fe-Mg		0	0	# Mg.175Fe3Al.35Si3.65O10(OH)2
+	  Saponite-Fe-Na		0	0	# Na.35Fe3Al.35Si3.65O10(OH)2
+	  Saponite-Mg-Ca		0	0	# Ca.175Mg3Al.35Si3.65O10(OH)2
+	  Saponite-Mg-Fe		0	0	# Fe.175Mg3Al.35Si3.65O10(OH)2
+	  Saponite-Mg-K			0	0	# K.35Mg3Al.35Si3.65O10(OH)2
+	  Saponite-Mg-Mg		0	0	# Mg3.175Al.35Si3.65O10(OH)2
+	  Saponite-Mg-Na		0	0	# Na.35Mg3Al.35Si3.65O10(OH)2
+	  Scacchite			0	0	# MnCl2
+	  Schoepite			0	0	# UO3:2H2O
+	  Scolecite			0	0	# CaAl2Si3O10:3H2O
+	  Sepiolite			0	0	# Mg4Si6O15(OH)2:6H2O
+	  Si				0	0	# Si
+	  Siderite			0	0	# FeCO3
+	  Sillimanite			0	0	# Al2SiO5
+	  SiO2(am)			0	0	# SiO2
+	  Smectite-high-Fe-Mg		0	0	# Ca.025Na.1K.2Fe.5Fe.2Mg1.15Al1.25Si3.5H2O12
+	  Smectite-low-Fe-Mg		0	0	# Ca.02Na.15K.2Fe.29Fe.16Mg.9Al1.25Si3.75H2O12
+	  Smithsonite			0	0	# ZnCO3
+	  Sphaerocobaltite		0	0	# CoCO3
+	  Spinel			0	0	# Al2MgO4
+	  Spinel-Co			0	0	# Co3O4
+	  Spodumene			0	0	# LiAlSi2O6
+	  Stilbite			0	0	# Ca1.019Na.136K.006Al2.18Si6.82O18:7.33H2O
+	  Strengite			0	0	# FePO4:2H2O
+	  Sylvite			0	0	# KCl
+	  Talc				0	0	# Mg3Si4O10(OH)2
+	  Tarapacaite			0	0	# K2CrO4
+	  Tenorite			0	0	# CuO
+	  Th				0	0	# Th
+	  Th(NO3)4:5H2O			0	0	# Th(NO3)4:5H2O
+	  Th(SO4)2			0	0	# Th(SO4)2
+	  Th2S3				0	0	# Th2S3
+	  Th7S12			0	0	# Th7S12
+	  ThCl4				0	0	# ThCl4
+	  Thenardite			0	0	# Na2SO4
+	  Thermonatrite			0	0	# Na2CO3:H2O
+	  ThS2				0	0	# ThS2
+	  Ti				0	0	# Ti
+	  Ti2O3				0	0	# Ti2O3
+	  Ti3O5				0	0	# Ti3O5
+	  TiB2				0	0	# TiB2
+	  TiC				0	0	# TiC
+	  TiCl2				0	0	# TiCl2
+	  TiCl3				0	0	# TiCl3
+	  TiN				0	0	# TiN
+	  Titanite			0	0	# CaTiSiO5
+	  Tobermorite-11A		0	0	# Ca5Si6H11O22.5
+	  Tremolite			0	0	# Ca2Mg5Si8O22(OH)2
+	  Trevorite			0	0	# NiFe2O4
+	  Tridymite			0	0	# SiO2
+	  U				0	0	# U
+	  U2O2Cl5			0	0	# U2O2Cl5
+	  U3S5				0	0	# U3S5
+	  UC				0	0	# UC
+	  UCl3				0	0	# UCl3
+	  UCl4				0	0	# UCl4
+	  UCl6				0	0	# UCl6
+	  UH3(beta)			0	0	# UH3
+	  UN				0	0	# UN
+	  UO2(NO3)2			0	0	# UO2(NO3)2
+	  UO2(NO3)2:6H2O		0	0	# UO2(NO3)2:6H2O
+	  UO2(OH)2(beta)		0	0	# UO2(OH)2
+	  UO2SO4			0	0	# UO2SO4
+	  UO2SO4:3H2O			0	0	# UO2SO4:3H2O
+	  UO3(beta)			0	0	# UO3
+	  Vaesite			0	0	# NiS2
+	  Wairakite			0	0	# CaAl2Si4O10(OH)4
+	  Wurtzite			0	0	# ZnS
+	  Wustite			0	0	# Fe.947O
+	  Xonotlite			0	0	# Ca6Si6O17(OH)2
+	  Zincite			0	0	# ZnO
+	  Zn				0	0	# Zn
+	  Zn(NO3)2:6H2O			0	0	# Zn(NO3)2:6H2O
+	  Zn(OH)2(beta)			0	0	# Zn(OH)2
+	  Zn(OH)2(epsilon)		0	0	# Zn(OH)2
+	  Zn2SiO4			0	0	# Zn2SiO4
+	  ZnCl2				0	0	# ZnCl2
+	  ZnCr2O4			0	0	# ZnCr2O4
+	  ZnSO4				0	0	# ZnSO4
+	  ZnSO4:6H2O			0	0	# ZnSO4:6H2O
+	  Zoisite			0	0	# Ca2Al3(SiO4)3OH
+	SELECTED_OUTPUT
+		file		/Users/aamsler/Desktop/Rock_Ocean_Europa/./Rocky_core//Rocky_core_t_109200.dat
+		state 		false	
+		solution 	false
+		distance 	false
+		time 		false
+		step 		false
+		temperature	false
+		ionic_strength	true
+		water		true
+		percent_error	true
+		totals 	Al B C Ca Cl Cu Fe K Li Mg Mn Mo N Na Ni P S Si B(3) C(-2) C(-3) C(-4) C(2) C(4) Cl(-1) Cl(1) Cl(3) Cl(5) Cl(7) Cu(1) Cu(2)  Fe(2) Fe(3) H(0) Mn(2) Mn(3) Mn(6) Mn(7) N(-3) N(0) N(3) N(5) O(0) P(5) S(-2) S(2) S(3) S(4) S(5) S(6) S(7) S(8)
+		molalities 	OH-	H+	H2O	AlO2-	HAlO2	AlOH+2	Al+3	Al(CH3COO)2+	BO2-	B(OH)3	C2H4	C2H6	CH4	CO	CO3-2	HCOO-	CH3OH	HCO3-	NaHCO3	CaCO3	CH3COO-	NaCH3COO	HCOOH	CO2	MgCO3	C3H8	CH3CH2OH	CH2O	LiCH3COO	KCH3COO	CN-	CH3COOH	NH4CH3COO	CaCH3COO+	SCN-	CO(NH2)2	HCN	Ca+2	CaCl+	CaCl2	CaSO4	Cl-	NaCl	LiCl	KCl	MnCl+	HCl	MgCl+	FeCl+	ZnCl+	FeCl2	NiCl+	CoCl+	ZnCl2	ZnCl3-	ZnCl4-2	FeCl+2	ClO-	ClO2-	ClO3-	ClO4-   Cu+	Cu+2	FeOH+	Fe+2	FeOH+2	Fe+3	H2	K+	KSO4-	KHSO4	Li+	Mg+2	MgSO4	Mn+2	MnSO4	Mn+3	MnO4-2	MnO4-	MoO4-2	NH3	NH4+	N2	NO2-	HNO2	NO3-	HNO3	Na+	NaOH	NaHSiO3	Ni+2	O2	S2O6-2	S3O6-2	S4O6-2	S5O6-2	PO4-3	HPO4-2	P2O7-4	H2PO4-	HP2O7-3	H3PO4	H2P2O7-2	H3P2O7-	H4P2O7	HS-	H2S	S2-2	S3-2	S4-2	S5-2	S2O3-2	S2O4-2	SO3-2	HSO3-	SO2	S2O5-2	SO4-2	HSO4-	ZnSO4	S2O8-2	HSO5-
+		equilibrium_phases   	[(6)(CB)(CB)S] [(aro)-O-(aro)] Afwillite Akermanite Al Al2(SO4)3 Alabandite Albite Albite_high Albite_low Alum-K Alunite Amesite-14A Analcime Andalusite Andradite Anhydrite Annite Anorthite Anthophyllite Antigorite Aragonite Arcanite Artinite Atacamite Azurite B B2O3 Bassanite Bassetite Beidellite-Ca Beidellite-Fe Beidellite-K Beidellite-Mg Beidellite-Na Berlinite Bieberite Bixbyite Boehmite Borax Boric_acid Bornite Brezinaite Brochantite Brucite Bunsenite C Ca Ca-Al_Pyroxene Ca3Al2O6 Ca4Al2Fe2O10 CaAl2O4 CaAl4O7 Calcite Cattierite CaUO4 Celadonite Chalcanthite Chalcedony Chalcocite Chalcocyanite Chalcopyrite Chamosite  Chloromagnesite Chromite Chrysotile Clinochlore-14A Clinochlore-7A Clinoptilolite-Ca Clinoptilolite-K Clinoptilolite-Na Clinozoisite Co Co2SiO4 CoCl2 CoCl2:2H2O CoCl2:6H2O Coesite CoFe2O4 Coffinite CoO Cordierite_anhyd Cordierite_hydr Corundum CoS CoSO4 CoSO4:6H2O CoSO4:H2O Covellite Cr CrCl3 Cristobalite(alpha) Cristobalite(beta) CrO2 CrO3 Cronstedtite-7A CrS Cu CuCl2 CuCr2O4 Cuprite Daphnite-14A Daphnite-7A Dawsonite Delafossite Diaspore Dicalcium_silicate Diopside Dioptase Dolomite Dolomite-dis Dolomite-ord Enstatite Epidote Epidote-ord Eskolaite Ettringite Eu Eu(OH)3 Eu2(SO4)3:8H2O Eu2O3(cubic) Eu2O3(monoclinic) Eu3O4 EuCl2 EuCl3 EuCl3:6H2O Eucryptite EuOCl EuS EuSO4 Fayalite Fe Fe(OH)2 Fe(OH)3 Fe2(SO4)3 FeO Ferrite-Ca Ferrite-Cu Ferrite-Dicalcium Ferrite-Mg Ferrite-Zn Ferrosilite FeSO4 Forsterite Foshagite Gd Gehlenite Gibbsite Goethite Greenalite Grossular Gypsum Gyrolite Halite Hatrurite Hausmannite Heazlewoodite Hedenbergite Hematite Hercynite Hillebrandite Huntite Hydromagnesite Hydrophilite Hydroxyapatite Ice Ilmenite Jadeite Jarosite K K-Feldspar K2O KAl(SO4)2 Kalsilite Kaolinite KerogenC128 KerogenC292 KerogenC515 Kyanite Larnite Laumontite Lawrencite Lawsonite Li Lime Linnaeite Lizardite Lopezite Magnesiochromite Magnesite Magnetite Malachite Manganosite Margarite Maximum_Microcline Mayenite Melanterite Merwinite Mesolite Mg MgOHCl MgSO4 Millerite Minnesotaite Mirabilite Mn Mn(OH)2(am) MnCl2:2H2O MnCl2:4H2O MnCl2:H2O MnSO4 Mo Molysite Monohydrocalcite Monticellite Montmor-Ca Montmor-K Montmor-Mg Montmor-Na Mordenite Morenosite Muscovite Na Na2CO3 Na2CO3:7H2O Na2Cr2O7 Na2CrO4 Na2O Na2SiO3 Na2U2O7 NaFeO2 Nahcolite Nantokite Natrolite Natron Natrosilite NaUO3 Nepheline Nesquehonite NH4-feldspar NH4-muscovite NH4Cl NH4HCO3 Ni Ni(OH)2 Ni2SiO4 Nickelbischofite NiCl2 NiCl2:2H2O Ningyoite NiSO4 NiSO4:6H2O(alpha) Niter Nontronite-Ca Nontronite-K Nontronite-Mg Nontronite-Na Okenite P Paragonite Pargasite Periclase Petalite Phlogopite Polydymite Portlandite Prehnite Pseudowollastonite Pyridine Pyrite Pyrolusite Pyrophyllite Pyrrhotite Quartz Rankinite Rhodochrosite Rhodonite Ripidolite Rutherfordine Rutile S Saleeite Sanidine_high Saponite-Fe-Ca Saponite-Fe-K Saponite-Fe-Mg Saponite-Fe-Na Saponite-Mg-Ca Saponite-Mg-Fe Saponite-Mg-K Saponite-Mg-Mg Saponite-Mg-Na Sc Scacchite Schoepite Scolecite Sepiolite Si Siderite Sillimanite SiO2(am) Sm Smectite-high-Fe-Mg Smectite-low-Fe-Mg Smithsonite Sphaerocobaltite Sphalerite Spinel Spinel-Co Spodumene Stilbite Strengite Sylvite Talc Tarapacaite Tenorite Tephroite Th Th(NO3)4:5H2O Th(SO4)2 Th2S3 Th7S12 ThCl4 Thenardite Thermonatrite Thorianite ThS2 Ti Ti2O3 Ti3O5 TiB2 TiC TiCl2 TiCl3 TiN Titanite Tobermorite-11A Tremolite Trevorite Tridymite Troilite U U2O2Cl5 U3S5 UC UCl3 UCl4 UCl6 UH3(beta) UN UO2(NO3)2 UO2(NO3)2:6H2O UO2(OH)2(beta) UO2SO4 UO2SO4:3H2O UO3(beta) Uraninite Vaesite Wairakite Wollastonite Wurtzite Wustite Xonotlite Zincite Zn Zn(NO3)2:6H2O Zn(OH)2(beta) Zn(OH)2(epsilon) Zn2SiO4 ZnCl2 ZnCr2O4 ZnSO4 ZnSO4:6H2O Zoisite
+		gases 		C2H4(g) C2H6(g)	C3H8(g) CH4(g) CO(g) CO2(g) H2(g) H2O(g) H2S(g) N2(g) NH3(g) NO(g) NO2(g) O2(g) SO2(g)
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 1.	Determined bu the LV equilibrium
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	C(-4)             1.247e-02   3.370e-03
+	C(4)              1.027e-03   2.776e-04
+	N(-3)             6.332e-03   1.711e-03
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  10.564      Charge balance
+                                       pe  =  -5.423    
+                          Density (g/cm³)  =   1.01985
+                               Volume (L)  =   0.26511
+                        Activity of water  =   1.000
+                 Ionic strength (mol/kgw)  =   2.379e-03
+                       Mass of water (kg)  =   2.703e-01
+                 Total alkalinity (eq/kg)  =   6.332e-03
+                       Total CO2 (mol/kg)  =   1.027e-03
+                         Temperature (°C)  =   0.01
+                           Pressure (atm)  = 411.66
+                  Electrical balance (eq)  =  -1.458e-16
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
+                               Iterations  =  13
+                                  Total H  = 3.003289e+01
+                                  Total O  = 1.500769e+01
+
+---------------------------------Redox couples---------------------------------
+
+	Redox couple             pe  Eh (volts)
+
+	C(-4)/C(4)          -8.3821     -0.4543
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             6.425e-05   6.098e-05    -4.192    -4.215    -0.023     -0.88
+   H+              2.863e-11   2.728e-11   -10.543   -10.564    -0.021      0.00
+   H2O             5.553e+01   9.997e-01     1.744    -0.000     0.000     17.66
+C(-4)         1.247e-02
+   CH4             1.247e-02   1.247e-02    -1.904    -1.904     0.000     33.55
+C(4)          1.027e-03
+   CO3-2           6.436e-04   5.234e-04    -3.191    -3.281    -0.090     -2.39
+   HCO3-           3.835e-04   3.641e-04    -3.416    -3.439    -0.023     23.16
+   CO2             2.332e-08   2.333e-08    -7.632    -7.632     0.000     30.01
+   CO(NH2)2        2.353e-12   2.353e-12   -11.628   -11.628     0.000     43.69
+   HCOO-           1.702e-14   1.615e-14   -13.769   -13.792    -0.023     25.85
+   HCOOH           2.828e-21   2.828e-21   -20.549   -20.549     0.000     31.31
+   CN-             1.108e-31   1.051e-31   -30.955   -30.978    -0.023     22.11
+   CH3OH           2.236e-32   2.236e-32   -31.650   -31.650     0.000     38.31
+   HCN             1.984e-32   1.984e-32   -31.702   -31.702     0.000     41.07
+   CH3COO-         9.718e-33   9.230e-33   -32.012   -32.035    -0.022     39.26
+   NH4CH3COO       2.311e-35   2.311e-35   -34.636   -34.636     0.000     61.78
+   CH2O            9.196e-37   9.196e-37   -36.036   -36.036     0.000     24.33
+   CH3COOH         1.235e-38   1.235e-38   -37.909   -37.909     0.000     49.28
+   CH3CH2OH        0.000e+00   0.000e+00   -51.339   -51.339     0.000     54.31
+   NH4(CH3COO)2-   0.000e+00   0.000e+00   -66.653   -66.675    -0.023    111.95
+   C3H8            0.000e+00   0.000e+00   -68.027   -68.027     0.000     58.58
+H(0)          1.604e-14
+   H2              8.022e-15   8.027e-15   -14.096   -14.095     0.000     23.01
+N(-3)         6.332e-03
+   NH3             4.597e-03   4.597e-03    -2.338    -2.338     0.000     24.44
+   NH4+            1.735e-03   1.645e-03    -2.761    -2.784    -0.023     18.30
+   CO(NH2)2        2.353e-12   2.353e-12   -11.628   -11.628     0.000     43.69
+   CN-             1.108e-31   1.051e-31   -30.955   -30.978    -0.023     22.11
+   HCN             1.984e-32   1.984e-32   -31.702   -31.702     0.000     41.07
+   NH4CH3COO       2.311e-35   2.311e-35   -34.636   -34.636     0.000     61.78
+   NH4(CH3COO)2-   0.000e+00   0.000e+00   -66.653   -66.675    -0.023    111.95
+O(0)         -1.702e-14
+   HCOO-           1.702e-14   1.615e-14   -13.769   -13.792    -0.023     25.85
+   HCOOH           2.828e-21   2.828e-21   -20.549   -20.549     0.000     31.31
+   CN-             1.108e-31   1.051e-31   -30.955   -30.978    -0.023     22.11
+   CH3OH           2.236e-32   2.236e-32   -31.650   -31.650     0.000     38.31
+   HCN             1.984e-32   1.984e-32   -31.702   -31.702     0.000     41.07
+   CH3COO-         9.718e-33   9.230e-33   -32.012   -32.035    -0.022     39.26
+   NH4CH3COO       2.311e-35   2.311e-35   -34.636   -34.636     0.000     61.78
+   CH2O            9.196e-37   9.196e-37   -36.036   -36.036     0.000     24.33
+   CH3COOH         1.235e-38   1.235e-38   -37.909   -37.909     0.000     49.28
+   CH3CH2OH        0.000e+00   0.000e+00   -51.339   -51.339     0.000     54.31
+   NH4(CH3COO)2-   0.000e+00   0.000e+00   -66.653   -66.675    -0.023    111.95
+   C3H8            0.000e+00   0.000e+00   -68.027   -68.027     0.000     58.58
+   O2              0.000e+00   0.000e+00   -73.074   -73.073     0.000     27.50
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(273 K, 412 atm)
+
+  [(aro)-O-(aro)] -14.17    -36.54  -22.37  O
+  C               -11.54     59.07   70.61  C
+  C3H8(g)         -64.87    -68.03   -3.16  C3H8
+  CH4(g)            0.95     -1.90   -2.85  CH4
+  CO2(g)           -6.29    -14.00   -7.71  CO2
+  H2(g)           -10.90    -14.10   -3.19  H2
+  H2O(g)           -2.16     -0.00    2.16  H2O
+  Ice              -0.06     -0.00    0.06  H2O
+  KerogenC128    -2158.85   9362.9711521.82  C128H68O7
+  KerogenC292    -4932.49  23931.6828864.16  C292H288O12
+  KerogenC515    -9659.22  41959.5151618.73  C515H596O72
+  NH3(g)           -4.52     -2.34    2.18  NH3
+  NH4HCO3          -5.94     -6.22   -0.28  NH4HCO3
+  O2(g)           -70.20    -73.07   -2.88  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+-----------------------------------------
+Beginning of batch-reaction calculations.
+-----------------------------------------
+
+Reaction step 1.
+
+Using solution 1.	Determined bu the LV equilibrium
+Using pure phase assemblage 1.	CM chondrite
+Using gas phase 1.	No initial gas, formation if sum (partial pressures)>pressure
+
+----------------Fixed-pressure gas phase 1 dissolved completely----------------
+
+-------------------------------Phase assemblage--------------------------------
+
+                                                      Moles in assemblage
+Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
+
+Afwillite       -22.74    42.45     65.19    0.000e+00           0   0.000e+00
+Akermanite      -10.58    39.55     50.14    0.000e+00           0   0.000e+00
+Al              -94.06    71.48    165.54    0.000e+00           0   0.000e+00
+Al2(SO4)3      -122.22   -96.22     26.00    0.000e+00           0   0.000e+00
+Alabandite       -1.16    -1.07      0.08    0.000e+00           0   0.000e+00
+Albite           -2.17     1.46      3.64    0.000e+00           0   0.000e+00
+Albite_high      -3.67     1.46      5.13    0.000e+00           0   0.000e+00
+Albite_low       -2.17     1.46      3.64    0.000e+00           0   0.000e+00
+Alum-K          -54.46   -59.09     -4.63    0.000e+00           0   0.000e+00
+Alunite         -49.99   -45.39      4.60    0.000e+00           0   0.000e+00
+Amesite-14A     -12.93    76.06     89.00    0.000e+00           0   0.000e+00
+Analcime         -1.24     6.24      7.48    0.000e+00           0   0.000e+00
+Andalusite      -12.09     7.88     19.97    0.000e+00           0   0.000e+00
+Andradite        -0.00    38.36     38.36    0.000e+00   9.113e-02   9.113e-02
+Anhydrite       -14.97   -18.62     -3.65    0.000e+00           0   0.000e+00
+Annite            0.00    33.93     33.93    0.000e+00   1.102e-02   1.102e-02
+Anorthite       -11.70    20.11     31.81    0.000e+00           0   0.000e+00
+Anthophyllite   -15.01    59.47     74.48    0.000e+00           0   0.000e+00
+Antigorite       -4.36   527.85    532.20    6.300e-02           0  -6.300e-02
+Aragonite        -0.20     2.38      2.59    0.000e+00           0   0.000e+00
+Arcanite        -19.84   -21.79     -1.95    0.000e+00           0   0.000e+00
+Artinite         -7.38    14.53     21.90    0.000e+00           0   0.000e+00
+Atacamite       -97.00   -80.55     16.45    0.000e+00           0   0.000e+00
+Azurite         -81.81   -70.11     11.70    0.000e+00           0   0.000e+00
+B               -62.28    57.56    119.84    5.500e-05           0  -5.500e-05
+B2O3            -20.08   -14.21      5.87    0.000e+00           0   0.000e+00
+Bassanite       -15.61   -18.63     -3.02    0.000e+00           0   0.000e+00
+Bassetite       -53.85   -67.99    -14.14    0.000e+00           0   0.000e+00
+Beidellite-Ca    -8.69    -1.86      6.83    0.000e+00           0   0.000e+00
+Beidellite-Fe    -8.21    -2.86      5.36    0.000e+00           0   0.000e+00
+Beidellite-K     -7.39    -2.42      4.97    0.000e+00           0   0.000e+00
+Beidellite-Mg    -8.34    -2.38      5.96    0.000e+00           0   0.000e+00
+Beidellite-Na    -6.94    -0.84      6.11    0.000e+00           0   0.000e+00
+Berlinite       -17.63   -22.81     -5.18    0.000e+00           0   0.000e+00
+Bieberite       -32.14   -34.54     -2.40    0.000e+00           0   0.000e+00
+Bixbyite        -19.88   -17.46      2.42    0.000e+00           0   0.000e+00
+Boehmite         -2.70     6.82      9.51    0.000e+00           0   0.000e+00
+Borax           -15.33    -4.63     10.70    0.000e+00           0   0.000e+00
+Boric_acid       -6.68    -7.12     -0.43    0.000e+00           0   0.000e+00
+Bornite          -8.07  -118.38   -110.31    0.000e+00           0   0.000e+00
+Brezinaite      -74.96   -68.28      6.68    0.000e+00           0   0.000e+00
+Brochantite    -107.24   -88.47     18.77    0.000e+00           0   0.000e+00
+Brucite          -3.06    15.08     18.13    3.750e-01           0  -3.750e-01
+Bunsenite        -6.70     7.49     14.19    0.000e+00           0   0.000e+00
+C                 0.00    70.60     70.60    0.000e+00   1.528e+00   1.528e+00
+Ca              -92.20    61.11    153.30    0.000e+00           0   0.000e+00
+Ca-Al_Pyroxene  -16.23    25.88     42.10    0.000e+00           0   0.000e+00
+Ca3Al2O6        -59.53    67.64    127.17    0.000e+00           0   0.000e+00
+Ca4Al2Fe2O10    -72.53    87.29    159.82    0.000e+00           0   0.000e+00
+CaAl2O4         -22.80    31.64     54.44    0.000e+00           0   0.000e+00
+CaAl4O7         -35.74    45.28     81.02    0.000e+00           0   0.000e+00
+CaUO4           -10.68     7.47     18.15    0.000e+00           0   0.000e+00
+Calcite          -0.08     2.38      2.46    1.680e-01           0  -1.680e-01
+Cattierite       -6.03   -37.80    -31.77    0.000e+00           0   0.000e+00
+Celadonite       -2.41     6.26      8.67    0.000e+00           0   0.000e+00
+Chalcanthite    -47.18   -49.61     -2.43    0.000e+00           0   0.000e+00
+Chalcedony       -1.46    -5.76     -4.30    0.000e+00           0   0.000e+00
+Chalcocite       -4.14   -42.05    -37.91    0.000e+00           0   0.000e+00
+Chalcocyanite   -54.04   -49.58      4.46    0.000e+00           0   0.000e+00
+Chalcopyrite     -0.00   -34.28    -34.28    0.000e+00   1.800e-03   1.800e-03
+Chamosite         0.00    57.97     57.97    0.000e+00   1.123e-01   1.123e-01
+Chloromagnesite  -38.14   -13.62     24.53    0.000e+00           0   0.000e+00
+Chromite          0.00    19.88     19.88    3.100e-02   2.810e-02  -2.900e-03
+Chrysotile       -0.99    33.71     34.71    0.000e+00           0   0.000e+00
+Clinochlore-14A   -5.75    71.74     77.49    1.500e-01           0  -1.500e-01
+Clinochlore-7A   -9.38    71.74     81.12    0.000e+00           0   0.000e+00
+Clinoptilolite-Ca  -23.26   -29.09     -5.82    0.000e+00           0   0.000e+00
+Clinoptilolite-K  -22.29   -34.58    -12.29    0.000e+00           0   0.000e+00
+Clinoptilolite-Na  -11.62   -18.92     -7.30    0.000e+00           0   0.000e+00
+Clinozoisite    -11.80    39.17     50.96    0.000e+00           0   0.000e+00
+Co              -12.88    45.23     58.11    9.700e-03           0  -9.700e-03
+Co2SiO4          -9.76    -1.51      8.25    0.000e+00           0   0.000e+00
+CoCl2           -36.24   -26.57      9.67    0.000e+00           0   0.000e+00
+CoCl2:2H2O      -32.01   -26.59      5.42    0.000e+00           0   0.000e+00
+CoCl2:6H2O      -29.14   -26.61      2.52    0.000e+00           0   0.000e+00
+CoFe2O4          -0.00     3.78      3.78    0.000e+00   9.700e-03   9.700e-03
+CoO             -13.24     2.13     15.37    0.000e+00           0   0.000e+00
+CoS              -7.33   -14.70     -7.37    0.000e+00           0   0.000e+00
+CoSO4           -39.03   -34.49      4.54    0.000e+00           0   0.000e+00
+CoSO4:6H2O      -32.45   -34.53     -2.09    0.000e+00           0   0.000e+00
+CoSO4:H2O       -34.49   -34.50     -0.02    0.000e+00           0   0.000e+00
+Coesite          -2.03    -5.76     -3.73    0.000e+00           0   0.000e+00
+Coffinite        -2.02    -9.14     -7.12    0.000e+00           0   0.000e+00
+Cordierite_anhyd  -34.49    28.63     63.13    0.000e+00           0   0.000e+00
+Cordierite_hydr  -31.67    28.63     60.30    0.000e+00           0   0.000e+00
+Corundum         -9.03    13.64     22.67    0.000e+00           0   0.000e+00
+Covellite        -5.48   -29.78    -24.31    1.800e-03           0  -1.800e-03
+Cr              -41.00    68.44    109.44    0.000e+00           0   0.000e+00
+CrCl3           -60.37   -39.27     21.10    0.000e+00           0   0.000e+00
+CrO2            -19.12   -39.54    -20.43    0.000e+00           0   0.000e+00
+CrO3            -67.31   -70.56     -3.25    0.000e+00           0   0.000e+00
+CrS             -25.24   -25.36     -0.12    0.000e+00           0   0.000e+00
+Cristobalite(alpha)   -1.80    -5.76     -3.96    0.000e+00           0   0.000e+00
+Cristobalite(beta)   -2.33    -5.76     -3.43    0.000e+00           0   0.000e+00
+Cronstedtite-7A    0.00    20.53     20.53    6.300e-01   6.822e-01   5.220e-02
+Cu               -4.98    30.15     35.13    0.000e+00           0   0.000e+00
+CuCl2           -46.32   -41.66      4.66    0.000e+00           0   0.000e+00
+CuCr2O4         -26.39    -5.40     20.99    0.000e+00           0   0.000e+00
+Cuprite         -23.02   -25.22     -2.20    0.000e+00           0   0.000e+00
+Daphnite-14A     -3.21    57.97     61.19    0.000e+00           0   0.000e+00
+Daphnite-7A      -6.89    57.97     64.87    0.000e+00           0   0.000e+00
+Dawsonite        -2.72     3.13      5.85    0.000e+00           0   0.000e+00
+Delafossite      -5.85   -11.79     -5.94    0.000e+00           0   0.000e+00
+Diaspore         -2.23     6.82      9.05    0.000e+00           0   0.000e+00
+Dicalcium_silicate  -10.61    30.23     40.84    0.000e+00           0   0.000e+00
+Diopside         -1.55    21.56     23.11    0.000e+00           0   0.000e+00
+Dioptase        -25.26   -18.73      6.54    0.000e+00           0   0.000e+00
+Dolomite         -1.97     1.85      3.82    0.000e+00           0   0.000e+00
+Dolomite-dis     -3.71     1.85      5.56    0.000e+00           0   0.000e+00
+Dolomite-ord     -1.96     1.85      3.82    0.000e+00           0   0.000e+00
+Enstatite        -3.33     9.32     12.65    0.000e+00           0   0.000e+00
+Epidote          -6.28    33.17     39.45    0.000e+00           0   0.000e+00
+Epidote-ord      -6.29    33.17     39.46    0.000e+00           0   0.000e+00
+Eskolaite        -3.49   -11.79     -8.30    0.000e+00           0   0.000e+00
+Ettringite      -58.67    11.56     70.23    0.000e+00           0   0.000e+00
+Eu              -99.75    82.18    181.93    4.950e-07           0  -4.950e-07
+Eu(OH)3           0.00    17.51     17.51    0.000e+00   4.946e-07   4.946e-07
+Eu2(SO4)3:8H2O  -66.39   -74.88     -8.49    0.000e+00           0   0.000e+00
+Eu2O3(cubic)    -23.66    35.03     58.69    0.000e+00           0   0.000e+00
+Eu2O3(monoclinic)  -25.41    35.03     60.44    0.000e+00           0   0.000e+00
+Eu3O4           -54.30    43.00     97.30    0.000e+00           0   0.000e+00
+EuCl2           -27.38   -20.73      6.65    0.000e+00           0   0.000e+00
+EuCl3           -48.10   -25.54     22.56    0.000e+00           0   0.000e+00
+EuCl3:6H2O      -31.27   -25.58      5.69    0.000e+00           0   0.000e+00
+EuOCl           -15.01     3.17     18.18    0.000e+00           0   0.000e+00
+EuS             -25.46    -8.85     16.61    0.000e+00           0   0.000e+00
+EuSO4           -19.61   -28.65     -9.04    0.000e+00           0   0.000e+00
+Eucryptite       -5.89    10.15     16.05    1.950e-04           0  -1.950e-04
+Fayalite         -2.81    18.90     21.71    0.000e+00           0   0.000e+00
+Fe               -9.72    55.44     65.16    0.000e+00           0   0.000e+00
+Fe(OH)2          -3.20    12.32     15.53    0.000e+00           0   0.000e+00
+Fe(OH)3          -6.24     0.82      7.05    0.000e+00           0   0.000e+00
+Fe2(SO4)3      -116.44  -108.21      8.23    0.000e+00           0   0.000e+00
+FeO              -3.01    12.33     15.34    0.000e+00           0   0.000e+00
+FeSO4           -28.48   -24.29      4.19    0.000e+00           0   0.000e+00
+Ferrite-Ca       -6.42    19.65     26.07    0.000e+00           0   0.000e+00
+Ferrite-Cu      -25.37   -11.31     14.06    0.000e+00           0   0.000e+00
+Ferrite-Dicalcium  -27.26    37.65     64.91    0.000e+00           0   0.000e+00
+Ferrite-Mg       -9.11    16.74     25.84    0.000e+00           0   0.000e+00
+Ferrite-Zn       -9.68     6.02     15.70    0.000e+00           0   0.000e+00
+Ferrosilite      -1.84     6.57      8.40    0.000e+00           0   0.000e+00
+Forsterite       -6.84    24.40     31.25    3.250e-01           0  -3.250e-01
+Foshagite       -17.20    54.70     71.89    0.000e+00           0   0.000e+00
+Gd             -112.97    85.81    198.79    1.740e-06           0  -1.740e-06
+Gehlenite       -20.80    43.88     64.68    0.000e+00           0   0.000e+00
+Gibbsite         -2.67     6.81      9.48    0.000e+00           0   0.000e+00
+Goethite         -0.79     0.82      1.61    0.000e+00           0   0.000e+00
+Greenalite       -0.08    25.45     25.53    0.000e+00           0   0.000e+00
+Grossular        -8.79    50.35     59.13    0.000e+00           0   0.000e+00
+Gypsum          -14.50   -18.64     -4.14    0.000e+00           0   0.000e+00
+Gyrolite         -5.52    18.69     24.21    0.000e+00           0   0.000e+00
+Halite           -4.00    -2.42      1.58    4.500e-03           0  -4.500e-03
+Hatrurite       -32.43    48.23     80.67    0.000e+00           0   0.000e+00
+Hausmannite     -16.59    -1.70     14.89    0.000e+00           0   0.000e+00
+Heazlewoodite    -1.08    31.93     33.01    0.000e+00           0   0.000e+00
+Hedenbergite     -2.84    18.80     21.64    0.000e+00           0   0.000e+00
+Hematite         -0.72     1.65      2.37    0.000e+00           0   0.000e+00
+Hercynite        -8.85    25.97     34.82    0.000e+00           0   0.000e+00
+Hillebrandite    -9.98    30.23     40.21    0.000e+00           0   0.000e+00
+Huntite         -12.92     0.79     13.71    0.000e+00           0   0.000e+00
+Hydromagnesite  -23.42    12.93     36.34    0.000e+00           0   0.000e+00
+Hydrophilite    -23.97   -10.70     13.27    0.000e+00           0   0.000e+00
+Hydroxyapatite    0.00     1.09      1.09    1.000e-02   9.924e-03  -7.647e-05
+Ice              -0.07    -0.01      0.06    0.000e+00           0   0.000e+00
+Ilmenite          0.00     1.17      1.17    0.000e+00   1.200e-02   1.200e-02
+Jadeite          -2.49     7.22      9.72    0.000e+00           0   0.000e+00
+Jarosite        -57.78   -63.37     -5.59    0.000e+00           0   0.000e+00
+K               -48.56    28.97     77.53    0.000e+00           0   0.000e+00
+K-Feldspar       -3.18    -3.05      0.12    0.000e+00           0   0.000e+00
+K2O             -76.06    14.83     90.89    0.000e+00           0   0.000e+00
+KAl(SO4)2       -65.69   -59.01      6.69    0.000e+00           0   0.000e+00
+Kalsilite        -4.29     8.47     12.76    0.000e+00           0   0.000e+00
+Kaolinite        -7.26     2.10      9.36    0.000e+00           0   0.000e+00
+KerogenC128    -505.06  11016.75  11521.82    9.200e-03           0  -9.200e-03
+KerogenC292    -697.56  28166.60  28864.16    0.000e+00           0   0.000e+00
+KerogenC515   -2235.12  49383.60  51618.73    0.000e+00           0   0.000e+00
+Kyanite         -11.70     7.88     19.57    0.000e+00           0   0.000e+00
+Larnite         -12.00    30.23     42.23    0.000e+00           0   0.000e+00
+Laumontite       -8.25     8.56     16.81    0.000e+00           0   0.000e+00
+Lawrencite      -26.97   -16.37     10.60    0.000e+00           0   0.000e+00
+Lawsonite        -6.16    20.10     26.26    0.000e+00           0   0.000e+00
+Li              -48.90    30.65     79.55    0.000e+00           0   0.000e+00
+Lime            -17.80    18.00     35.80    0.000e+00           0   0.000e+00
+Linnaeite       -14.02  -127.29   -113.27    0.000e+00           0   0.000e+00
+Lizardite         0.00    33.71     33.71    0.000e+00   1.600e+00   1.600e+00
+Lopezite       -107.92  -126.28    -18.37    0.000e+00           0   0.000e+00
+Magnesiochromite   -4.32    22.64     26.96    0.000e+00           0   0.000e+00
+Magnesite        -3.69    -0.53      3.16    0.000e+00           0   0.000e+00
+Magnetite        -0.27    13.98     14.25    6.000e-02           0  -6.000e-02
+Malachite       -49.00   -41.54      7.47    0.000e+00           0   0.000e+00
+Manganosite      -4.20    15.75     19.95    0.000e+00           0   0.000e+00
+Margarite       -16.26    33.75     50.01    0.000e+00           0   0.000e+00
+Maximum_Microcline   -3.17    -3.05      0.12    0.000e+00           0   0.000e+00
+Mayenite       -252.42   311.47    563.89    0.000e+00           0   0.000e+00
+Melanterite     -22.06   -24.34     -2.28    0.000e+00           0   0.000e+00
+Merwinite       -18.12    57.55     75.68    0.000e+00           0   0.000e+00
+Mesolite         -0.71    16.10     16.80    0.000e+00           0   0.000e+00
+Mg              -76.49    58.19    134.68    0.000e+00           0   0.000e+00
+MgOHCl          -17.19     0.73     17.92    0.000e+00           0   0.000e+00
+MgSO4           -28.23   -21.54      6.69    0.000e+00           0   0.000e+00
+Millerite        -1.23    -9.34     -8.10    2.000e-01           0  -2.000e-01
+Minnesotaite     -1.83    13.93     15.76    0.000e+00           0   0.000e+00
+Mirabilite      -10.82   -12.83     -2.01    0.000e+00           0   0.000e+00
+Mn              -32.23    58.86     91.09    0.000e+00           0   0.000e+00
+Mn(OH)2(am)      -1.16    15.75     16.90    0.000e+00           0   0.000e+00
+MnCl2:2H2O      -17.61   -12.96      4.65    0.000e+00           0   0.000e+00
+MnCl2:4H2O      -15.96   -12.97      2.99    0.000e+00           0   0.000e+00
+MnCl2:H2O       -19.30   -12.95      6.35    0.000e+00           0   0.000e+00
+MnSO4           -24.92   -20.87      4.05    0.000e+00           0   0.000e+00
+Mo              -20.96    99.62    120.57    1.500e-05           0  -1.500e-05
+Molysite        -58.31   -42.23     16.08    0.000e+00           0   0.000e+00
+Monohydrocalcite   -0.82     2.38      3.20    0.000e+00           0   0.000e+00
+Monticellite     -5.54    27.32     32.86    0.000e+00           0   0.000e+00
+Montmor-Ca       -7.44    -3.38      4.06    0.000e+00           0   0.000e+00
+Montmor-K        -6.75    -3.93      2.82    0.000e+00           0   0.000e+00
+Montmor-Mg       -7.29    -3.89      3.40    0.000e+00           0   0.000e+00
+Montmor-Na       -6.40    -2.35      4.05    0.000e+00           0   0.000e+00
+Mordenite        -7.74   -13.26     -5.51    0.000e+00           0   0.000e+00
+Morenosite      -27.23   -29.18     -1.95    0.000e+00           0   0.000e+00
+Muscovite        -7.13    10.58     17.71    0.000e+00           0   0.000e+00
+NH4-feldspar     -3.86   -10.74     -6.88    0.000e+00           0   0.000e+00
+NH4-muscovite     0.00     2.89      2.89    0.000e+00   5.371e-02   5.371e-02
+NH4Cl           -15.51   -14.62      0.88    0.000e+00           0   0.000e+00
+NH4HCO3         -15.60   -15.89     -0.29    0.000e+00           0   0.000e+00
+Na              -40.17    33.48     73.65    0.000e+00           0   0.000e+00
+Na2CO3           -3.73     8.25     11.98    0.000e+00           0   0.000e+00
+Na2CO3:7H2O      -1.48     8.20      9.68    0.000e+00           0   0.000e+00
+Na2Cr2O7       -107.27  -117.25     -9.99    0.000e+00           0   0.000e+00
+Na2CrO4         -50.19   -46.70      3.50    0.000e+00           0   0.000e+00
+Na2O            -49.29    23.86     73.15    0.000e+00           0   0.000e+00
+Na2SiO3          -5.51    18.10     23.61    3.000e-02           0  -3.000e-02
+Na2U2O7         -22.72     2.81     25.52    0.000e+00           0   0.000e+00
+NaFeO2           -9.95    12.76     22.71    0.000e+00           0   0.000e+00
+NaUO3            -8.53     0.84      9.37    0.000e+00           0   0.000e+00
+Nahcolite        -3.43    -3.69     -0.25    0.000e+00           0   0.000e+00
+Nantokite       -19.60   -26.96     -7.36    0.000e+00           0   0.000e+00
+Natrolite        -1.64    20.20     21.84    0.000e+00           0   0.000e+00
+Natron           -0.66     8.18      8.84    0.000e+00           0   0.000e+00
+Natrosilite      -6.60    12.33     18.93    0.000e+00           0   0.000e+00
+Nepheline        -3.15    12.99     16.14    0.000e+00           0   0.000e+00
+Nesquehonite     -6.94    -0.55      6.39    0.000e+00           0   0.000e+00
+Ni               -5.91    50.60     56.51    0.000e+00           0   0.000e+00
+Ni(OH)2          -6.89     7.48     14.37    0.000e+00           0   0.000e+00
+Ni2SiO4          -7.31     9.22     16.53    0.000e+00           0   0.000e+00
+NiCl2           -31.26   -21.21     10.05    0.000e+00           0   0.000e+00
+NiCl2:2H2O      -25.84   -21.22      4.62    0.000e+00           0   0.000e+00
+NiSO4           -36.27   -29.13      7.14    0.000e+00           0   0.000e+00
+NiSO4:6H2O(alpha)  -27.39   -29.17     -1.78    0.000e+00           0   0.000e+00
+Nickelbischofite  -24.47   -21.25      3.22    0.000e+00           0   0.000e+00
+Ningyoite       -16.27   -44.66    -28.39    0.000e+00           0   0.000e+00
+Niter          -106.20  -106.90     -0.69    0.000e+00           0   0.000e+00
+Nontronite-Ca    -5.66   -13.85     -8.20    0.000e+00           0   0.000e+00
+Nontronite-K     -4.37   -14.41    -10.04    3.150e-02           0  -3.150e-02
+Nontronite-Mg    -5.30   -14.36     -9.06    0.000e+00           0   0.000e+00
+Nontronite-Na    -3.93   -12.83     -8.90    3.000e-01           0  -3.000e-01
+Okenite          -4.24     6.46     10.70    0.000e+00           0   0.000e+00
+P               -67.99    78.13    146.12    0.000e+00           0   0.000e+00
+Paragonite       -7.10    15.10     22.19    0.000e+00           0   0.000e+00
+Pargasite       -22.54    94.14    116.68    0.000e+00           0   0.000e+00
+Periclase        -8.74    15.08     23.82    0.000e+00           0   0.000e+00
+Petalite         -3.54    -7.14     -3.60    0.000e+00           0   0.000e+00
+Phlogopite       -0.42    42.19     42.61    0.000e+00           0   0.000e+00
+Polydymite       -0.00   -51.11    -51.11    0.000e+00   6.667e-02   6.667e-02
+Portlandite      -6.73    17.99     24.73    0.000e+00           0   0.000e+00
+Prehnite         -5.87    32.34     38.22    0.000e+00           0   0.000e+00
+Pseudowollastonite   -3.09    12.24     15.32    0.000e+00           0   0.000e+00
+Pyridine        -45.16   481.36    526.52    5.200e-02           0  -5.200e-02
+Pyrite            0.00   -26.27    -26.27    0.000e+00   3.797e-01   3.797e-01
+Pyrolusite      -25.84   -44.72    -18.88    0.000e+00           0   0.000e+00
+Pyrophyllite    -11.46    -9.42      2.04    0.000e+00           0   0.000e+00
+Pyrrhotite       -1.02    -4.50     -3.47    0.000e+00           0   0.000e+00
+Quartz           -1.17    -5.76     -4.60    0.000e+00           0   0.000e+00
+Rankinite       -14.49    42.47     56.96    0.000e+00           0   0.000e+00
+Rhodochrosite    -0.16     0.14      0.30    0.000e+00           0   0.000e+00
+Rhodonite        -0.79     9.99     10.78    0.000e+00           0   0.000e+00
+Ripidolite      -16.28    66.23     82.51    0.000e+00           0   0.000e+00
+Rutherfordine   -22.50   -26.14     -3.65    0.000e+00           0   0.000e+00
+Rutile           -1.66   -11.16     -9.50    1.200e-02           0  -1.200e-02
+S               -10.60   -59.93    -49.33    0.000e+00           0   0.000e+00
+Saleeite        -49.51   -65.24    -15.73    0.000e+00           0   0.000e+00
+Sanidine_high    -4.55    -3.05      1.50    0.000e+00           0   0.000e+00
+Saponite-Fe-Ca   -1.75    21.48     23.24    0.000e+00           0   0.000e+00
+Saponite-Fe-K    -0.45    20.93     21.38    0.000e+00           0   0.000e+00
+Saponite-Fe-Mg   -1.39    20.97     22.37    0.000e+00           0   0.000e+00
+Saponite-Fe-Na   -0.00    22.51     22.51    0.000e+00   5.586e-02   5.586e-02
+Saponite-Mg-Ca   -2.87    29.74     32.61    0.000e+00           0   0.000e+00
+Saponite-Mg-Fe   -2.35    28.75     31.11    0.000e+00           0   0.000e+00
+Saponite-Mg-K    -1.58    29.19     30.77    0.000e+00           0   0.000e+00
+Saponite-Mg-Mg   -2.50    29.23     31.73    0.000e+00           0   0.000e+00
+Saponite-Mg-Na   -1.14    30.77     31.91    0.000e+00           0   0.000e+00
+Sc              -86.55    97.50    184.05    1.800e-04           0  -1.800e-04
+Scacchite       -23.02   -12.95     10.08    0.000e+00           0   0.000e+00
+Schoepite       -16.20   -10.54      5.66    0.000e+00           0   0.000e+00
+Scolecite        -5.13    14.33     19.46    0.000e+00           0   0.000e+00
+Sepiolite        -7.07    25.71     32.78    0.000e+00           0   0.000e+00
+Si              -82.34    80.45    162.79    0.000e+00           0   0.000e+00
+SiO2(am)         -2.72    -5.76     -3.04    0.000e+00           0   0.000e+00
+Siderite         -3.79    -3.28      0.51    0.000e+00           0   0.000e+00
+Sillimanite     -12.50     7.88     20.38    0.000e+00           0   0.000e+00
+Sm             -112.90    33.02    145.92    1.320e-06           0  -1.320e-06
+Smectite-high-Fe-Mg   -5.59    15.15     20.74    0.000e+00           0   0.000e+00
+Smectite-low-Fe-Mg   -5.60     7.82     13.42    0.000e+00           0   0.000e+00
+Smithsonite     -12.37   -11.25      1.12    0.000e+00           0   0.000e+00
+Sphaerocobaltite  -13.93   -13.49      0.44    0.000e+00           0   0.000e+00
+Sphalerite       -0.61   -12.46    -11.85    2.900e-03           0  -2.900e-03
+Spinel          -15.70    28.72     44.43    0.000e+00           0   0.000e+00
+Spinel-Co       -55.87   -59.99     -4.12    0.000e+00           0   0.000e+00
+Spodumene        -3.98     4.39      8.37    0.000e+00           0   0.000e+00
+Stilbite         -6.90    -4.48      2.42    0.000e+00           0   0.000e+00
+Strengite       -18.38   -28.82    -10.44    0.000e+00           0   0.000e+00
+Sylvite          -7.55    -6.93      0.61    0.000e+00           0   0.000e+00
+Talc             -1.27    22.19     23.46    0.000e+00           0   0.000e+00
+Tarapacaite     -55.21   -55.73     -0.51    0.000e+00           0   0.000e+00
+Tenorite        -21.78   -12.96      8.83    0.000e+00           0   0.000e+00
+Tephroite         0.00    25.74     25.74    1.600e-02   1.600e-02  -5.950e-10
+Th             -141.10    90.13    231.23    0.000e+00           0   0.000e+00
+Th(NO3)4:5H2O  -455.86  -453.37      2.49    0.000e+00           0   0.000e+00
+Th(SO4)2        -50.59   -69.32    -18.73    0.000e+00           0   0.000e+00
+Th2S3          -107.86     0.47    108.33    0.000e+00           0   0.000e+00
+Th7S12         -326.08   -88.26    237.82    0.000e+00           0   0.000e+00
+ThCl4           -81.61   -53.48     28.12    0.000e+00           0   0.000e+00
+ThS2            -43.58   -29.73     13.84    0.000e+00           0   0.000e+00
+Thenardite      -12.82   -12.76      0.06    0.000e+00           0   0.000e+00
+Thermonatrite    -3.29     8.24     11.53    0.000e+00           0   0.000e+00
+Thorianite       -0.00     3.92      3.92    1.700e-07   1.700e-07   3.398e-23
+Ti              -74.54    75.06    149.59    0.000e+00           0   0.000e+00
+Ti2O3           -22.55    20.79     43.34    0.000e+00           0   0.000e+00
+Ti3O5           -25.51     9.63     35.13    0.000e+00           0   0.000e+00
+TiB2           -122.76   190.17    312.93    0.000e+00           0   0.000e+00
+TiC             -36.64   145.66    182.29    0.000e+00           0   0.000e+00
+TiCl2           -67.95     3.25     71.20    0.000e+00           0   0.000e+00
+TiCl3           -72.27   -32.66     39.61    0.000e+00           0   0.000e+00
+TiN             -35.37     0.02     35.39    0.000e+00           0   0.000e+00
+Titanite       -718.76     1.08    719.84    0.000e+00           0   0.000e+00
+Tobermorite-11A  -14.79    55.38     70.17    0.000e+00           0   0.000e+00
+Tremolite        -2.42    65.30     67.72    0.000e+00           0   0.000e+00
+Trevorite        -4.45     9.14     13.60    0.000e+00           0   0.000e+00
+Tridymite        -1.40    -5.76     -4.37    0.000e+00           0   0.000e+00
+Troilite         -0.92    -4.50     -3.58    7.200e-01           0  -7.200e-01
+U              -114.72   118.80    233.52    0.000e+00           0   0.000e+00
+U2O2Cl5        -110.06   -86.22     23.85    0.000e+00           0   0.000e+00
+U3S5           -124.51  -120.70      3.81    0.000e+00           0   0.000e+00
+UC              -95.83   118.67    214.50    0.000e+00           0   0.000e+00
+UCl3            -74.91   -59.65     15.26    0.000e+00           0   0.000e+00
+UCl4            -86.86   -60.78     26.08    0.000e+00           0   0.000e+00
+UCl6           -160.53   -96.63     63.90    0.000e+00           0   0.000e+00
+UH3(beta)      -106.57   112.72    219.29    0.000e+00           0   0.000e+00
+UN              -73.95   -26.97     46.98    0.000e+00           0   0.000e+00
+UO2(NO3)2      -253.01  -239.15     13.86    0.000e+00           0   0.000e+00
+UO2(NO3)2:6H2O -241.27  -239.19      2.07    0.000e+00           0   0.000e+00
+UO2(OH)2(beta)  -16.42   -10.53      5.89    0.000e+00           0   0.000e+00
+UO2SO4          -51.11   -47.15      3.96    0.000e+00           0   0.000e+00
+UO2SO4:3H2O     -46.59   -47.17     -0.58    0.000e+00           0   0.000e+00
+UO3(beta)       -20.22   -10.53      9.70    0.000e+00           0   0.000e+00
+Uraninite        -0.00    -3.38     -3.38    4.600e-08   4.600e-08  -1.127e-18
+Vaesite          -2.74   -31.11    -28.37    0.000e+00           0   0.000e+00
+Wairakite       -13.60     8.57     22.18    0.000e+00           0   0.000e+00
+Wollastonite     -2.80    12.24     15.04    1.050e-01           0  -1.050e-01
+Wurtzite         -3.12   -12.46     -9.34    0.000e+00           0   0.000e+00
+Wustite          -3.70    10.46     14.16    0.000e+00           0   0.000e+00
+Xonotlite       -26.80    73.41    100.20    0.000e+00           0   0.000e+00
+Zincite          -8.39     4.37     12.76    0.000e+00           0   0.000e+00
+Zn              -28.44    47.47     75.92    0.000e+00           0   0.000e+00
+Zn(NO3)2:6H2O  -227.43  -224.30      3.13    0.000e+00           0   0.000e+00
+Zn(OH)2(beta)    -9.06     4.36     13.42    0.000e+00           0   0.000e+00
+Zn(OH)2(epsilon)   -8.77     4.36     13.13    0.000e+00           0   0.000e+00
+Zn2SiO4         -13.04     2.97     16.00    0.000e+00           0   0.000e+00
+ZnCl2           -32.76   -24.34      8.43    0.000e+00           0   0.000e+00
+ZnCr2O4           0.00    11.92     11.92    0.000e+00   2.900e-03   2.900e-03
+ZnSO4           -37.47   -32.26      5.21    0.000e+00           0   0.000e+00
+ZnSO4:6H2O      -30.92   -32.30     -1.37    0.000e+00           0   0.000e+00
+Zoisite         -11.86    39.17     51.03    0.000e+00           0   0.000e+00
+[(6)(CB)(CB)S]  -17.59    50.09     67.68    1.050e-01           0  -1.050e-01
+[(aro)-O-(aro)]  -20.74   -43.11    -22.37    2.050e-01           0  -2.050e-01
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Al                3.304e-07   8.755e-08
+	B                 2.075e-04   5.500e-05
+	C                 3.063e-01   8.117e-02
+	Ca                1.169e-05   3.098e-06
+	Cl                1.698e-02   4.500e-03
+	Co                1.059e-22   2.808e-23
+	Cr                8.952e-33   2.372e-33
+	Cu                1.595e-25   4.226e-26
+	Eu                1.469e-09   3.893e-10
+	Fe                7.111e-11   1.884e-11
+	Gd                6.566e-06   1.740e-06
+	K                 1.831e-05   4.853e-06
+	Li                7.358e-04   1.950e-04
+	Mg                8.551e-09   2.266e-09
+	Mn                4.490e-09   1.190e-09
+	Mo                5.660e-05   1.500e-05
+	N                 4.190e-11   1.110e-11
+	Na                5.658e-01   1.499e-01
+	Ni                2.434e-17   6.450e-18
+	P                 8.657e-04   2.294e-04
+	S                 5.265e-05   1.395e-05
+	Sc                6.792e-04   1.800e-04
+	Si                9.009e-03   2.388e-03
+	Sm                4.981e-06   1.320e-06
+	Th                0.000e+00   0.000e+00
+	Ti                6.702e-12   1.776e-12
+	U                 5.336e-24   1.414e-24
+	Zn                2.187e-18   5.797e-19
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  12.364      Charge balance
+                                       pe  = -10.505      Adjusted to redox equilibrium
+                          Density (g/cm³)  =   1.05058
+                               Volume (L)  =   0.26014
+                        Activity of water  =   0.985
+                 Ionic strength (mol/kgw)  =   8.293e-01
+                       Mass of water (kg)  =   2.650e-01
+                 Total alkalinity (eq/kg)  =   5.516e-01
+                       Total CO2 (mol/kg)  =   2.677e-01
+                         Temperature (°C)  =   0.01
+                           Pressure (atm)  = 411.66
+                  Electrical balance (eq)  =  -4.322e-16
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
+                               Iterations  = 100
+                                  Total H  = 2.947601e+01
+                                  Total O  = 1.493798e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             5.701e-03   3.683e-03    -2.244    -2.434    -0.190      0.64
+   H+              5.345e-13   4.328e-13   -12.272   -12.364    -0.092      0.00
+   H2O             5.553e+01   9.848e-01     1.744    -0.007     0.000     17.66
+Al            3.304e-07
+   AlO2-           3.304e-07   2.209e-07    -6.481    -6.656    -0.175      7.73
+   HAlO2           1.025e-12   1.025e-12   -11.989   -11.989     0.000     12.40
+   AlOH+2          1.430e-23   2.601e-24   -22.845   -23.585    -0.740    -21.94
+   Al+3            6.492e-30   5.486e-31   -29.188   -30.261    -1.073    -33.51
+   Al(CH3COO)2+    2.497e-40   1.670e-40   -39.603   -39.777    -0.175     44.98
+B(3)          2.075e-04
+   BO2-            2.075e-04   1.387e-04    -3.683    -3.858    -0.175    -34.50
+   B(OH)3          7.654e-08   7.654e-08    -7.116    -7.116     0.000     35.89
+C(-2)         3.357e-26
+   C2H4            1.678e-26   1.678e-26   -25.775   -25.775     0.000     39.33
+C(-3)         5.212e-05
+   C2H6            2.606e-05   2.606e-05    -4.584    -4.584     0.000     46.22
+C(-4)         3.856e-02
+   CH4             3.856e-02   3.856e-02    -1.414    -1.414     0.000     33.55
+C(2)          1.424e-19
+   CO              1.424e-19   1.424e-19   -18.847   -18.847     0.000     30.31
+C(4)          2.677e-01
+   CO3-2           2.661e-01   4.841e-02    -0.575    -1.315    -0.740      0.06
+   HCO3-           8.266e-04   5.527e-04    -3.083    -3.258    -0.175     23.77
+   NaHCO3          7.110e-04   7.110e-04    -3.148    -3.148     0.000      1.80
+   CaCO3           1.091e-05   1.091e-05    -4.962    -4.962     0.000    -12.59
+   ScCH3COO+2      1.426e-07   2.594e-08    -6.846    -7.586    -0.740      6.29
+   HCOO-           1.414e-07   9.137e-08    -6.849    -7.039    -0.190     26.46
+   CH3COO-         9.552e-08   6.582e-08    -7.020    -7.182    -0.162     39.87
+   C3H8            6.908e-08   6.908e-08    -7.161    -7.161     0.000     58.58
+   NaCH3COO        1.981e-08   1.981e-08    -7.703    -7.703     0.000     43.09
+   MgCO3           7.814e-09   7.814e-09    -8.107    -8.107     0.000    -14.79
+   SmCO3+          3.401e-09   2.274e-09    -8.468    -8.643    -0.175    -18.60
+   GdCO3+          1.060e-09   7.084e-10    -8.975    -9.150    -0.175    -17.98
+   CO2             4.678e-10   5.767e-10    -9.330    -9.239     0.091     30.01
+   LiCH3COO        9.824e-11   9.824e-11   -10.008   -10.008     0.000     43.33
+   Sc(CH3COO)2+    1.840e-12   1.230e-12   -11.735   -11.910    -0.175     47.63
+   EuCO3+          3.082e-13   2.061e-13   -12.511   -12.686    -0.175    -18.32
+   CaCH3COO+       1.695e-13   1.133e-13   -12.771   -12.946    -0.175     27.33
+   KCH3COO         1.424e-13   1.424e-13   -12.846   -12.846     0.000    102.10
+   CH3OH           2.777e-14   2.777e-14   -13.556   -13.556     0.000     38.31
+   MnCH3COO+       2.190e-15   1.464e-15   -14.660   -14.834    -0.175     28.27
+   CH3COOH         1.412e-15   1.412e-15   -14.850   -14.850     0.000     49.28
+   Na(CH3COO)2-    1.258e-15   8.409e-16   -14.900   -15.075    -0.175     91.78
+   CH3CH2OH        7.176e-16   7.176e-16   -15.144   -15.144     0.000     54.31
+   MgCH3COO+       6.828e-16   4.565e-16   -15.166   -15.341    -0.175     23.99
+   HCOOH           2.566e-16   2.566e-16   -15.591   -15.591     0.000     31.31
+   SmHCO3+2        5.650e-17   1.028e-17   -16.248   -16.988    -0.740     -7.74
+   Li(CH3COO)2-    1.715e-17   1.147e-17   -16.766   -16.941    -0.175     92.07
+   GdHCO3+2        1.474e-17   2.682e-18   -16.831   -17.572    -0.740     -6.19
+   Sc(CH3COO)3     1.370e-17   1.370e-17   -16.863   -16.863     0.000     95.18
+   FeCH3COO+       9.891e-19   6.613e-19   -18.005   -18.180    -0.175     22.59
+   SmCH3COO+2      1.910e-19   3.475e-20   -18.719   -19.459    -0.740      6.16
+   Ca(CH3COO)2     1.736e-19   1.736e-19   -18.761   -18.761     0.000     72.65
+   GdCH3COO+2      3.787e-20   6.889e-21   -19.422   -20.162    -0.740      7.71
+   NH4CH3COO       2.388e-20   2.388e-20   -19.622   -19.622     0.000     61.78
+   K(CH3COO)2-     1.280e-20   8.559e-21   -19.893   -20.068    -0.175    102.75
+   EuHCO3+2        3.056e-21   5.559e-22   -20.515   -21.255    -0.740     -7.05
+   Mn(CH3COO)2     1.007e-21   1.007e-21   -20.997   -20.997     0.000     73.69
+   Mg(CH3COO)2     3.384e-22   3.384e-22   -21.471   -21.471     0.000     68.88
+   NiCH3COO+       2.691e-23   1.799e-23   -22.570   -22.745    -0.175     16.75
+   EuCH3COO+2      1.365e-23   2.484e-24   -22.865   -23.605    -0.740      6.85
+   Fe(CH3COO)2     1.367e-24   1.367e-24   -23.864   -23.864     0.000     67.43
+   Sm(CH3COO)2+    5.335e-25   3.567e-25   -24.273   -24.448    -0.175     47.48
+   CH2O            3.111e-25   3.111e-25   -24.507   -24.507     0.000     24.33
+   Gd(CH3COO)2+    8.906e-26   5.954e-26   -25.050   -25.225    -0.175     49.20
+   ZnCH3COO+       1.467e-26   9.807e-27   -25.834   -26.008    -0.175     20.53
+   NH4(CH3COO)2-   2.326e-27   1.555e-27   -26.633   -26.808    -0.175    112.56
+   Mn(CH3COO)3-    4.457e-28   2.980e-28   -27.351   -27.526    -0.175    125.89
+   SCN-            3.233e-28   2.088e-28   -27.490   -27.680    -0.190     32.99
+   CoCH3COO+       1.117e-28   7.467e-29   -27.952   -28.127    -0.175     21.21
+   Eu(CH3COO)2+    4.783e-29   3.198e-29   -28.320   -28.495    -0.175     48.25
+   Ni(CH3COO)2     1.794e-29   1.794e-29   -28.746   -28.746     0.000     60.81
+   CO(NH2)2        4.814e-30   4.814e-30   -29.318   -29.318     0.000     43.69
+   Sm(CH3COO)3     1.664e-30   1.664e-30   -29.779   -29.779     0.000     95.06
+   Gd(CH3COO)3     1.613e-31   1.613e-31   -30.792   -30.792     0.000     96.99
+   Zn(CH3COO)2     1.064e-31   1.064e-31   -30.973   -30.973     0.000     64.72
+   CuCH3COO        1.888e-32   1.888e-32   -31.724   -31.724     0.000     36.40
+   CN-             8.915e-33   5.533e-33   -32.050   -32.257    -0.207     22.72
+   Eu(CH3COO)3     1.214e-34   1.214e-34   -33.916   -33.916     0.000     95.91
+   Co(CH3COO)2     8.255e-35   8.255e-35   -34.083   -34.083     0.000     58.67
+   Ni(CH3COO)3-    1.860e-35   1.244e-35   -34.730   -34.905    -0.175    114.52
+   HCN             1.675e-35   1.675e-35   -34.776   -34.776     0.000     41.07
+   Zn(CH3COO)3-    1.772e-37   1.185e-37   -36.752   -36.926    -0.175    115.57
+   Cu(CH3COO)2-    3.242e-39   2.168e-39   -38.489   -38.664    -0.175     84.33
+   Al(CH3COO)2+    2.497e-40   1.670e-40   -39.603   -39.777    -0.175     44.98
+   Co(CH3COO)3-    0.000e+00   0.000e+00   -40.100   -40.275    -0.175    117.14
+   CuCH3COO+       0.000e+00   0.000e+00   -42.231   -42.406    -0.175     21.00
+   Cu(CH3COO)2     0.000e+00   0.000e+00   -47.909   -47.909     0.000     65.57
+   Cu(CH3COO)3-    0.000e+00   0.000e+00   -53.201   -53.376    -0.175    116.87
+Ca            1.169e-05
+   CaCO3           1.091e-05   1.091e-05    -4.962    -4.962     0.000    -12.59
+   Ca+2            7.849e-07   1.897e-07    -6.105    -6.722    -0.617    -14.83
+   CaCl+           5.554e-10   3.713e-10    -9.255    -9.430    -0.175      6.78
+   CaCl2           5.539e-12   5.539e-12   -11.257   -11.257     0.000     29.52
+   CaCH3COO+       1.695e-13   1.133e-13   -12.771   -12.946    -0.175     27.33
+   CaSO4           2.089e-17   2.089e-17   -16.680   -16.680     0.000      7.61
+   Ca(CH3COO)2     1.736e-19   1.736e-19   -18.761   -18.761     0.000     72.65
+Cl(-1)        1.698e-02
+   Cl-             1.648e-02   1.023e-02    -1.783    -1.990    -0.207     17.82
+   NaCl            5.007e-04   5.007e-04    -3.300    -3.300     0.000     21.98
+   LiCl            1.365e-07   1.365e-07    -6.865    -6.865     0.000     25.47
+   KCl             1.992e-09   1.992e-09    -8.701    -8.701     0.000     34.45
+   CaCl+           5.554e-10   3.713e-10    -9.255    -9.430    -0.175      6.78
+   MnCl+           2.471e-11   1.652e-11   -10.607   -10.782    -0.175    -11.25
+   CaCl2           5.539e-12   5.539e-12   -11.257   -11.257     0.000     29.52
+   MgCl+           2.940e-12   1.966e-12   -11.532   -11.707    -0.175      2.92
+   FeCl+           3.879e-15   2.593e-15   -14.411   -14.586    -0.175      2.73
+   HCl             1.266e-15   1.266e-15   -14.898   -14.898     0.000     -0.77
+   SmCl+2          2.811e-17   5.114e-18   -16.551   -17.291    -0.740    -13.65
+   GdCl+2          8.938e-18   1.626e-18   -17.049   -17.789    -0.740    -12.10
+   EuCl+           4.172e-19   2.789e-19   -18.380   -18.554    -0.175     22.92
+   FeCl2           1.167e-19   1.167e-19   -18.933   -18.933     0.000     24.97
+   SmCl2+          2.758e-20   1.844e-20   -19.559   -19.734    -0.175      5.62
+   GdCl2+          8.808e-21   5.889e-21   -20.055   -20.230    -0.175      7.35
+   NiCl+           7.919e-21   5.295e-21   -20.101   -20.276    -0.175     -3.96
+   EuCl3-          2.750e-21   1.839e-21   -20.561   -20.736    -0.175     77.40
+   EuCl+2          2.153e-21   3.917e-22   -20.667   -21.407    -0.740    -12.97
+   EuCl4-2         1.246e-21   2.011e-22   -20.904   -21.697    -0.792    111.47
+   SmCl3           8.651e-23   8.651e-23   -22.063   -22.063     0.000     28.62
+   ZnCl+           6.031e-23   4.032e-23   -22.220   -22.394    -0.175    -51.48
+   GdCl3           2.409e-23   2.409e-23   -22.618   -22.618     0.000     30.56
+   EuCl2+          1.032e-24   6.902e-25   -23.986   -24.161    -0.175     48.61
+   SmCl4-          7.087e-25   4.739e-25   -24.150   -24.324    -0.175     55.95
+   CoCl+           5.324e-25   3.560e-25   -24.274   -24.449    -0.175      0.50
+   GdCl4-          2.037e-25   1.362e-25   -24.691   -24.866    -0.175     58.10
+   ZnCl2           1.605e-26   1.605e-26   -25.795   -25.795     0.000    178.24
+   ZnCl3-          8.998e-27   6.016e-27   -26.046   -26.221    -0.175      5.58
+   EuCl3           6.636e-27   6.636e-27   -26.178   -26.178     0.000     29.47
+   ZnCl4-2         4.911e-28   7.920e-29   -27.309   -28.101    -0.792    139.69
+   EuCl4-          6.286e-29   4.203e-29   -28.202   -28.376    -0.175     56.91
+   FeCl+2          1.526e-39   2.776e-40   -38.816   -39.557    -0.740    -12.50
+Cl(1)         0.000e+00
+   ClO-            0.000e+00   0.000e+00   -60.885   -61.059    -0.175      2.52
+Cl(3)         0.000e+00
+   ClO2-           0.000e+00   0.000e+00  -112.804  -112.979    -0.175     21.15
+Cl(5)         0.000e+00
+   ClO3-           0.000e+00   0.000e+00  -149.548  -149.737    -0.190     34.02
+Cl(7)         0.000e+00
+   ClO4-           0.000e+00   0.000e+00  -190.728  -190.918    -0.190     36.59
+Co(2)         1.059e-22
+   Co+2            1.054e-22   2.548e-23   -21.977   -22.594    -0.617    -20.38
+   CoCl+           5.324e-25   3.560e-25   -24.274   -24.449    -0.175      0.50
+   CoCH3COO+       1.117e-28   7.467e-29   -27.952   -28.127    -0.175     21.21
+   Co(CH3COO)2     8.255e-35   8.255e-35   -34.083   -34.083     0.000     58.67
+   Co(CH3COO)3-    0.000e+00   0.000e+00   -40.100   -40.275    -0.175    117.14
+Co(3)         0.000e+00
+   Co+3            0.000e+00   0.000e+00   -66.539   -68.139    -1.600    -28.07
+Cr(2)         3.077e-33
+   Cr+2            3.077e-33   5.597e-34   -32.512   -33.252    -0.740    -15.60
+Cr(3)         5.875e-33
+   Cr+3            5.875e-33   4.964e-34   -32.231   -33.304    -1.073    -27.62
+Cr(6)         0.000e+00
+   CrO4-2          0.000e+00   0.000e+00   -45.045   -45.837    -0.792     21.32
+   HCrO4-          0.000e+00   0.000e+00   -51.672   -51.847    -0.175     40.98
+   Cr2O7-2         0.000e+00   0.000e+00  -101.111  -101.903    -0.792     67.32
+Cu(1)         1.595e-25
+   Cu+             1.595e-25   1.066e-25   -24.797   -24.972    -0.175     -5.21
+   CuCH3COO        1.888e-32   1.888e-32   -31.724   -31.724     0.000     36.40
+   Cu(CH3COO)2-    3.242e-39   2.168e-39   -38.489   -38.664    -0.175     84.33
+Cu(2)         8.676e-38
+   Cu+2            8.676e-38   2.097e-38   -37.062   -37.678    -0.617    -21.86
+   CuCH3COO+       0.000e+00   0.000e+00   -42.231   -42.406    -0.175     21.00
+   Cu(CH3COO)2     0.000e+00   0.000e+00   -47.909   -47.909     0.000     65.57
+   Cu(CH3COO)3-    0.000e+00   0.000e+00   -53.201   -53.376    -0.175    116.87
+Eu(2)         9.844e-17
+   Eu+2            9.802e-17   1.783e-17   -16.009   -16.749    -0.740     -9.54
+   EuCl+           4.172e-19   2.789e-19   -18.380   -18.554    -0.175     22.92
+   EuCl3-          2.750e-21   1.839e-21   -20.561   -20.736    -0.175     77.40
+   EuCl4-2         1.246e-21   2.011e-22   -20.904   -21.697    -0.792    111.47
+Eu(3)         1.469e-09
+   EuO2-           1.467e-09   9.806e-10    -8.834    -9.009    -0.175     19.04
+   EuO2H           2.018e-12   2.018e-12   -11.695   -11.695     0.000     20.51
+   EuCO3+          3.082e-13   2.061e-13   -12.511   -12.686    -0.175    -18.32
+   EuO+            2.649e-14   1.771e-14   -13.577   -13.752    -0.175      7.09
+   EuOH+2          1.524e-16   2.773e-17   -15.817   -16.557    -0.740      6.96
+   Eu+3            1.086e-18   2.724e-20   -17.964   -19.565    -1.600    -28.81
+   EuHCO3+2        3.056e-21   5.559e-22   -20.515   -21.255    -0.740     -7.05
+   EuCl+2          2.153e-21   3.917e-22   -20.667   -21.407    -0.740    -12.97
+   EuCH3COO+2      1.365e-23   2.484e-24   -22.865   -23.605    -0.740      6.85
+   EuCl2+          1.032e-24   6.902e-25   -23.986   -24.161    -0.175     48.61
+   EuCl3           6.636e-27   6.636e-27   -26.178   -26.178     0.000     29.47
+   EuH2PO4+2       3.709e-27   6.748e-28   -26.431   -27.171    -0.740     -1.18
+   EuSO4+          7.651e-29   5.115e-29   -28.116   -28.291    -0.175     -1.93
+   EuCl4-          6.286e-29   4.203e-29   -28.202   -28.376    -0.175     56.91
+   Eu(CH3COO)2+    4.783e-29   3.198e-29   -28.320   -28.495    -0.175     48.25
+   Eu(CH3COO)3     1.214e-34   1.214e-34   -33.916   -33.916     0.000     95.91
+   EuNO3+2         0.000e+00   0.000e+00  -119.336  -120.076    -0.740     -3.17
+Fe(2)         7.111e-11
+   FeOH+           6.942e-11   4.642e-11   -10.159   -10.333    -0.175    -12.58
+   Fe+2            1.682e-12   4.065e-13   -11.774   -12.391    -0.617    -19.66
+   FeCl+           3.879e-15   2.593e-15   -14.411   -14.586    -0.175      2.73
+   FeCH3COO+       9.891e-19   6.613e-19   -18.005   -18.180    -0.175     22.59
+   FeCl2           1.167e-19   1.167e-19   -18.933   -18.933     0.000     24.97
+   Fe(CH3COO)2     1.367e-24   1.367e-24   -23.864   -23.864     0.000     67.43
+Fe(3)         8.088e-27
+   FeOH+2          8.088e-27   1.471e-27   -26.092   -26.832    -0.740    -17.86
+   Fe+3            6.573e-36   5.555e-37   -35.182   -36.255    -1.073    -25.03
+   FeCl+2          1.526e-39   2.776e-40   -38.816   -39.557    -0.740    -12.50
+Gd(3)         6.566e-06
+   GdO2-           6.553e-06   4.381e-06    -5.184    -5.358    -0.175     20.43
+   GdO2H           1.131e-08   1.131e-08    -7.947    -7.947     0.000     21.81
+   GdCO3+          1.060e-09   7.084e-10    -8.975    -9.150    -0.175    -17.98
+   GdO+            1.060e-10   7.086e-11    -9.975   -10.150    -0.175      7.87
+   GdOH+2          6.123e-13   1.114e-13   -12.213   -12.953    -0.740      7.64
+   Gd+3            4.688e-15   1.176e-16   -14.329   -15.929    -1.600    -28.02
+   GdHCO3+2        1.474e-17   2.682e-18   -16.831   -17.572    -0.740     -6.19
+   GdCl+2          8.938e-18   1.626e-18   -17.049   -17.789    -0.740    -12.10
+   GdCH3COO+2      3.787e-20   6.889e-21   -19.422   -20.162    -0.740      7.71
+   GdCl2+          8.808e-21   5.889e-21   -20.055   -20.230    -0.175      7.35
+   GdCl3           2.409e-23   2.409e-23   -22.618   -22.618     0.000     30.56
+   GdH2PO4+2       1.487e-23   2.705e-24   -22.828   -23.568    -0.740     -0.31
+   GdCl4-          2.037e-25   1.362e-25   -24.691   -24.866    -0.175     58.10
+   Gd(CH3COO)2+    8.906e-26   5.954e-26   -25.050   -25.225    -0.175     49.20
+   Gd(CH3COO)3     1.613e-31   1.613e-31   -30.792   -30.792     0.000     96.99
+   GdSO4+          3.471e-33   2.320e-33   -32.460   -32.634    -0.175     -1.59
+   GdNO3+2         0.000e+00   0.000e+00  -116.251  -116.991    -0.740     -2.30
+H(0)          4.781e-08
+   H2              2.391e-08   2.947e-08    -7.621    -7.531     0.091     23.01
+K             1.831e-05
+   K+              1.831e-05   1.136e-05    -4.737    -4.944    -0.207     10.26
+   KCl             1.992e-09   1.992e-09    -8.701    -8.701     0.000     34.45
+   KCH3COO         1.424e-13   1.424e-13   -12.846   -12.846     0.000    102.10
+   KSO4-           1.204e-16   8.050e-17   -15.919   -16.094    -0.175     33.09
+   K(CH3COO)2-     1.280e-20   8.559e-21   -19.893   -20.068    -0.175    102.75
+   KHSO4           9.056e-30   9.056e-30   -29.043   -29.043     0.000     47.94
+Li            7.358e-04
+   Li+             7.357e-04   5.442e-04    -3.133    -3.264    -0.131      1.53
+   LiCl            1.365e-07   1.365e-07    -6.865    -6.865     0.000     25.47
+   LiCH3COO        9.824e-11   9.824e-11   -10.008   -10.008     0.000     43.33
+   Li(CH3COO)2-    1.715e-17   1.147e-17   -16.766   -16.941    -0.175     92.07
+Mg            8.551e-09
+   MgCO3           7.814e-09   7.814e-09    -8.107    -8.107     0.000    -14.79
+   Mg+2            7.337e-10   2.305e-10    -9.135    -9.637    -0.503    -16.31
+   MgCl+           2.940e-12   1.966e-12   -11.532   -11.707    -0.175      2.92
+   MgCH3COO+       6.828e-16   4.565e-16   -15.166   -15.341    -0.175     23.99
+   MgSO4           3.067e-20   3.067e-20   -19.513   -19.513     0.000      5.93
+   Mg(CH3COO)2     3.384e-22   3.384e-22   -21.471   -21.471     0.000     68.88
+Mn(2)         4.490e-09
+   Mn+2            4.465e-09   1.079e-09    -8.350    -8.967    -0.617    -14.15
+   MnCl+           2.471e-11   1.652e-11   -10.607   -10.782    -0.175    -11.25
+   MnCH3COO+       2.190e-15   1.464e-15   -14.660   -14.834    -0.175     28.27
+   MnSO4           9.498e-20   9.498e-20   -19.022   -19.022     0.000     41.41
+   Mn(CH3COO)2     1.007e-21   1.007e-21   -20.997   -20.997     0.000     73.69
+   Mn(CH3COO)3-    4.457e-28   2.980e-28   -27.351   -27.526    -0.175    125.89
+Mn(3)         0.000e+00
+   Mn+3            0.000e+00   0.000e+00   -44.210   -45.810    -1.600    -28.50
+Mn(6)         0.000e+00
+   MnO4-2          0.000e+00   0.000e+00   -79.674   -80.466    -0.792     22.45
+Mn(7)         0.000e+00
+   MnO4-           0.000e+00   0.000e+00  -101.746  -101.935    -0.190     38.45
+Mo            5.660e-05
+   MoO4-2          5.660e-05   1.030e-05    -4.247    -4.987    -0.740     37.68
+N(-3)         4.190e-11
+   NH3             4.150e-11   4.150e-11   -10.382   -10.382     0.000     24.44
+   NH4+            3.934e-13   2.331e-13   -12.405   -12.633    -0.227     18.91
+   NH4CH3COO       2.388e-20   2.388e-20   -19.622   -19.622     0.000     61.78
+   NH4(CH3COO)2-   2.326e-27   1.555e-27   -26.633   -26.808    -0.175    112.56
+   SCN-            3.233e-28   2.088e-28   -27.490   -27.680    -0.190     32.99
+   CO(NH2)2        4.814e-30   4.814e-30   -29.318   -29.318     0.000     43.69
+   CN-             8.915e-33   5.533e-33   -32.050   -32.257    -0.207     22.72
+   HCN             1.675e-35   1.675e-35   -34.776   -34.776     0.000     41.07
+N(0)          5.563e-23
+   N2              2.781e-23   2.781e-23   -22.556   -22.556     0.000     30.05
+N(3)          0.000e+00
+   NO2-            0.000e+00   0.000e+00   -75.493   -75.700    -0.207     23.67
+   HNO2            0.000e+00   0.000e+00   -84.613   -84.613     0.000     27.82
+N(5)          0.000e+00
+   NO3-            0.000e+00   0.000e+00  -101.746  -101.953    -0.207     24.71
+   SmNO3+2         0.000e+00   0.000e+00  -115.329  -116.069    -0.740     -3.86
+   HNO3            0.000e+00   0.000e+00  -115.958  -115.958     0.000     36.08
+   GdNO3+2         0.000e+00   0.000e+00  -116.251  -116.991    -0.740     -2.30
+   EuNO3+2         0.000e+00   0.000e+00  -119.336  -120.076    -0.740     -3.17
+Na            5.658e-01
+   Na+             5.558e-01   3.716e-01    -0.255    -0.430    -0.175     -0.85
+   NaHSiO3         8.512e-03   8.512e-03    -2.070    -2.070     0.000     12.15
+   NaHCO3          7.110e-04   7.110e-04    -3.148    -3.148     0.000      1.80
+   NaCl            5.007e-04   5.007e-04    -3.300    -3.300     0.000     21.98
+   NaOH            2.365e-04   2.365e-04    -3.626    -3.626     0.000      4.12
+   NaCH3COO        1.981e-08   1.981e-08    -7.703    -7.703     0.000     43.09
+   Na(CH3COO)2-    1.258e-15   8.409e-16   -14.900   -15.075    -0.175     91.78
+Ni            2.434e-17
+   Ni+2            2.433e-17   5.880e-18   -16.614   -17.231    -0.617    -21.42
+   NiCl+           7.919e-21   5.295e-21   -20.101   -20.276    -0.175     -3.96
+   NiCH3COO+       2.691e-23   1.799e-23   -22.570   -22.745    -0.175     16.75
+   Ni(CH3COO)2     1.794e-29   1.794e-29   -28.746   -28.746     0.000     60.81
+   Ni(CH3COO)3-    1.860e-35   1.244e-35   -34.730   -34.905    -0.175    114.52
+O(0)         -1.864e-06
+   ScCH3COO+2      1.426e-07   2.594e-08    -6.846    -7.586    -0.740      6.29
+   HCOO-           1.414e-07   9.137e-08    -6.849    -7.039    -0.190     26.46
+   CH3COO-         9.552e-08   6.582e-08    -7.020    -7.182    -0.162     39.87
+   C3H8            6.908e-08   6.908e-08    -7.161    -7.161     0.000     58.58
+   NaCH3COO        1.981e-08   1.981e-08    -7.703    -7.703     0.000     43.09
+   LiCH3COO        9.824e-11   9.824e-11   -10.008   -10.008     0.000     43.33
+   Sc(CH3COO)2+    1.840e-12   1.230e-12   -11.735   -11.910    -0.175     47.63
+   CaCH3COO+       1.695e-13   1.133e-13   -12.771   -12.946    -0.175     27.33
+   KCH3COO         1.424e-13   1.424e-13   -12.846   -12.846     0.000    102.10
+   CH3OH           2.777e-14   2.777e-14   -13.556   -13.556     0.000     38.31
+   MnCH3COO+       2.190e-15   1.464e-15   -14.660   -14.834    -0.175     28.27
+   CH3COOH         1.412e-15   1.412e-15   -14.850   -14.850     0.000     49.28
+   Na(CH3COO)2-    1.258e-15   8.409e-16   -14.900   -15.075    -0.175     91.78
+   CH3CH2OH        7.176e-16   7.176e-16   -15.144   -15.144     0.000     54.31
+   MgCH3COO+       6.828e-16   4.565e-16   -15.166   -15.341    -0.175     23.99
+   HCOOH           2.566e-16   2.566e-16   -15.591   -15.591     0.000     31.31
+   Li(CH3COO)2-    1.715e-17   1.147e-17   -16.766   -16.941    -0.175     92.07
+   Sc(CH3COO)3     1.370e-17   1.370e-17   -16.863   -16.863     0.000     95.18
+   FeCH3COO+       9.891e-19   6.613e-19   -18.005   -18.180    -0.175     22.59
+   SmCH3COO+2      1.910e-19   3.475e-20   -18.719   -19.459    -0.740      6.16
+   Ca(CH3COO)2     1.736e-19   1.736e-19   -18.761   -18.761     0.000     72.65
+   GdCH3COO+2      3.787e-20   6.889e-21   -19.422   -20.162    -0.740      7.71
+   NH4CH3COO       2.388e-20   2.388e-20   -19.622   -19.622     0.000     61.78
+   K(CH3COO)2-     1.280e-20   8.559e-21   -19.893   -20.068    -0.175    102.75
+   Mn(CH3COO)2     1.007e-21   1.007e-21   -20.997   -20.997     0.000     73.69
+   Mg(CH3COO)2     3.384e-22   3.384e-22   -21.471   -21.471     0.000     68.88
+   NiCH3COO+       2.691e-23   1.799e-23   -22.570   -22.745    -0.175     16.75
+   EuCH3COO+2      1.365e-23   2.484e-24   -22.865   -23.605    -0.740      6.85
+   Fe(CH3COO)2     1.367e-24   1.367e-24   -23.864   -23.864     0.000     67.43
+   Sm(CH3COO)2+    5.335e-25   3.567e-25   -24.273   -24.448    -0.175     47.48
+   CH2O            3.111e-25   3.111e-25   -24.507   -24.507     0.000     24.33
+   Gd(CH3COO)2+    8.906e-26   5.954e-26   -25.050   -25.225    -0.175     49.20
+   ZnCH3COO+       1.467e-26   9.807e-27   -25.834   -26.008    -0.175     20.53
+   NH4(CH3COO)2-   2.326e-27   1.555e-27   -26.633   -26.808    -0.175    112.56
+   Mn(CH3COO)3-    4.457e-28   2.980e-28   -27.351   -27.526    -0.175    125.89
+   CoCH3COO+       1.117e-28   7.467e-29   -27.952   -28.127    -0.175     21.21
+   Eu(CH3COO)2+    4.783e-29   3.198e-29   -28.320   -28.495    -0.175     48.25
+   Ni(CH3COO)2     1.794e-29   1.794e-29   -28.746   -28.746     0.000     60.81
+   Sm(CH3COO)3     1.664e-30   1.664e-30   -29.779   -29.779     0.000     95.06
+   Gd(CH3COO)3     1.613e-31   1.613e-31   -30.792   -30.792     0.000     96.99
+   Zn(CH3COO)2     1.064e-31   1.064e-31   -30.973   -30.973     0.000     64.72
+   CuCH3COO        1.888e-32   1.888e-32   -31.724   -31.724     0.000     36.40
+   CN-             8.915e-33   5.533e-33   -32.050   -32.257    -0.207     22.72
+   Eu(CH3COO)3     1.214e-34   1.214e-34   -33.916   -33.916     0.000     95.91
+   Co(CH3COO)2     8.255e-35   8.255e-35   -34.083   -34.083     0.000     58.67
+   Ni(CH3COO)3-    1.860e-35   1.244e-35   -34.730   -34.905    -0.175    114.52
+   HCN             1.675e-35   1.675e-35   -34.776   -34.776     0.000     41.07
+   Zn(CH3COO)3-    1.772e-37   1.185e-37   -36.752   -36.926    -0.175    115.57
+   Cu(CH3COO)2-    3.242e-39   2.168e-39   -38.489   -38.664    -0.175     84.33
+   Al(CH3COO)2+    2.497e-40   1.670e-40   -39.603   -39.777    -0.175     44.98
+   Co(CH3COO)3-    0.000e+00   0.000e+00   -40.100   -40.275    -0.175    117.14
+   CuCH3COO+       0.000e+00   0.000e+00   -42.231   -42.406    -0.175     21.00
+   Cu(CH3COO)2     0.000e+00   0.000e+00   -47.909   -47.909     0.000     65.57
+   Cu(CH3COO)3-    0.000e+00   0.000e+00   -53.201   -53.376    -0.175    116.87
+   S2O6-2          0.000e+00   0.000e+00   -62.096   -62.889    -0.792     39.24
+   S4O6-2          0.000e+00   0.000e+00   -69.339   -70.131    -0.792     53.22
+   S3O6-2          0.000e+00   0.000e+00   -74.103   -74.896    -0.792     40.55
+   O2              0.000e+00   0.000e+00   -86.307   -86.216     0.091     27.50
+   S5O6-2          0.000e+00   0.000e+00   -94.943   -95.735    -0.792     43.67
+P(5)          8.657e-04
+   PO4-3           7.908e-04   1.192e-05    -3.102    -4.924    -1.822    -19.04
+   HPO4-2          7.490e-05   1.208e-05    -4.126    -4.918    -0.792      8.81
+   H2PO4-          1.099e-10   7.350e-11    -9.959   -10.134    -0.175     29.18
+   P2O7-4          1.077e-11   5.883e-15   -10.968   -14.230    -3.263     31.26
+   HP2O7-3         2.998e-16   4.521e-18   -15.523   -17.345    -1.822     39.34
+   H3PO4           2.815e-21   2.815e-21   -20.550   -20.550     0.000     42.97
+   H2P2O7-2        5.044e-23   8.135e-24   -22.297   -23.090    -0.792     45.07
+   SmH2PO4+2       4.707e-23   8.564e-24   -22.327   -23.067    -0.740     -1.86
+   GdH2PO4+2       1.487e-23   2.705e-24   -22.828   -23.568    -0.740     -0.31
+   EuH2PO4+2       3.709e-27   6.748e-28   -26.431   -27.171    -0.740     -1.18
+   H3P2O7-         1.134e-33   7.580e-34   -32.945   -33.120    -0.175     46.90
+   H4P2O7          0.000e+00   0.000e+00   -44.133   -44.133     0.000     50.33
+S(-2)         5.265e-05
+   HS-             5.265e-05   3.401e-05    -4.279    -4.468    -0.190     19.67
+   H2S             2.737e-10   2.737e-10    -9.563    -9.563     0.000     36.36
+   S2-2            3.875e-15   6.250e-16   -14.412   -15.204    -0.792     21.68
+   S3-2            1.373e-24   2.215e-25   -23.862   -24.655    -0.792     29.51
+   SCN-            3.233e-28   2.088e-28   -27.490   -27.680    -0.190     32.99
+   S4-2            2.890e-34   4.662e-35   -33.539   -34.331    -0.792     37.25
+   S5-2            0.000e+00   0.000e+00   -43.462   -44.255    -0.792     44.99
+S(2)          1.775e-23
+   S2O3-2          8.873e-24   1.431e-24   -23.052   -23.844    -0.792     24.54
+S(3)          0.000e+00
+   S2O4-2          0.000e+00   0.000e+00   -49.268   -49.962    -0.694     29.15
+S(4)          9.710e-20
+   SO3-2           9.710e-20   1.767e-20   -19.013   -19.753    -0.740      1.40
+   HSO3-           7.381e-26   4.935e-26   -25.132   -25.307    -0.175     39.56
+   SO2             7.548e-37   7.548e-37   -36.122   -36.122     0.000     34.22
+   S2O6-2          0.000e+00   0.000e+00   -62.096   -62.889    -0.792     39.24
+   S4O6-2          0.000e+00   0.000e+00   -69.339   -70.131    -0.792     53.22
+   S3O6-2          0.000e+00   0.000e+00   -74.103   -74.896    -0.792     40.55
+   S5O6-2          0.000e+00   0.000e+00   -94.943   -95.735    -0.792     43.67
+S(5)          0.000e+00
+   S2O5-2          0.000e+00   0.000e+00   -54.379   -55.172    -0.792     33.59
+S(6)          7.798e-12
+   SO4-2           7.798e-12   1.258e-12   -11.108   -11.900    -0.792      8.06
+   KSO4-           1.204e-16   8.050e-17   -15.919   -16.094    -0.175     33.09
+   CaSO4           2.089e-17   2.089e-17   -16.680   -16.680     0.000      7.61
+   MnSO4           9.498e-20   9.498e-20   -19.022   -19.022     0.000     41.41
+   MgSO4           3.067e-20   3.067e-20   -19.513   -19.513     0.000      5.93
+   HSO4-           2.381e-23   1.592e-23   -22.623   -22.798    -0.175     37.70
+   SmSO4+          1.355e-24   9.059e-25   -23.868   -24.043    -0.175    -13.82
+   EuSO4+          7.651e-29   5.115e-29   -28.116   -28.291    -0.175     -1.93
+   KHSO4           9.056e-30   9.056e-30   -29.043   -29.043     0.000     47.94
+   ZnSO4           3.477e-31   3.477e-31   -30.459   -30.459     0.000     27.92
+   GdSO4+          3.471e-33   2.320e-33   -32.460   -32.634    -0.175     -1.59
+S(7)          0.000e+00
+   S2O8-2          0.000e+00   0.000e+00  -116.873  -117.665    -0.792     72.84
+S(8)          0.000e+00
+   HSO5-           0.000e+00   0.000e+00   -86.870   -87.045    -0.175     45.69
+Sc            6.792e-04
+   Sc+3            6.791e-04   5.738e-05    -3.168    -4.241    -1.073    -22.86
+   ScCH3COO+2      1.426e-07   2.594e-08    -6.846    -7.586    -0.740      6.29
+   Sc(CH3COO)2+    1.840e-12   1.230e-12   -11.735   -11.910    -0.175     47.63
+   Sc(CH3COO)3     1.370e-17   1.370e-17   -16.863   -16.863     0.000     95.18
+Si            9.009e-03
+   NaHSiO3         8.512e-03   8.512e-03    -2.070    -2.070     0.000     12.15
+   HSiO3-          4.954e-04   3.312e-04    -3.305    -3.480    -0.175      6.28
+   SiO2            1.725e-06   1.725e-06    -5.763    -5.763     0.000     20.29
+Sm(2)         8.552e-35
+   Sm+2            8.552e-35   1.556e-35   -34.068   -34.808    -0.740    -10.15
+Sm(3)         4.981e-06
+   SmO2-           4.970e-06   3.323e-06    -5.304    -5.478    -0.175     19.91
+   SmO2H           6.894e-09   6.894e-09    -8.162    -8.162     0.000     21.29
+   SmCO3+          3.401e-09   2.274e-09    -8.468    -8.643    -0.175    -18.60
+   SmO+            2.364e-10   1.581e-10    -9.626    -9.801    -0.175      7.61
+   SmOH+2          1.647e-12   2.997e-13   -11.783   -12.523    -0.740      7.38
+   Sm+3            4.388e-15   3.708e-16   -14.358   -15.431    -1.073    -29.42
+   SmHCO3+2        5.650e-17   1.028e-17   -16.248   -16.988    -0.740     -7.74
+   SmCl+2          2.811e-17   5.114e-18   -16.551   -17.291    -0.740    -13.65
+   SmCH3COO+2      1.910e-19   3.475e-20   -18.719   -19.459    -0.740      6.16
+   SmCl2+          2.758e-20   1.844e-20   -19.559   -19.734    -0.175      5.62
+   SmCl3           8.651e-23   8.651e-23   -22.063   -22.063     0.000     28.62
+   SmH2PO4+2       4.707e-23   8.564e-24   -22.327   -23.067    -0.740     -1.86
+   SmSO4+          1.355e-24   9.059e-25   -23.868   -24.043    -0.175    -13.82
+   SmCl4-          7.087e-25   4.739e-25   -24.150   -24.324    -0.175     55.95
+   Sm(CH3COO)2+    5.335e-25   3.567e-25   -24.273   -24.448    -0.175     47.48
+   Sm(CH3COO)3     1.664e-30   1.664e-30   -29.779   -29.779     0.000     95.06
+   SmNO3+2         0.000e+00   0.000e+00  -115.329  -116.069    -0.740     -3.86
+Th            0.000e+00
+   Th+4            0.000e+00   0.000e+00   -43.864   -45.523    -1.659    -34.64
+Ti            6.702e-12
+   Ti(OH)4         6.702e-12   6.702e-12   -11.174   -11.174     0.000     36.19
+U(3)          0.000e+00
+   U+3             0.000e+00   0.000e+00   -52.076   -53.677    -1.600    -27.07
+U(4)          0.000e+00
+   U+4             0.000e+00   0.000e+00   -50.114   -52.820    -2.706    -34.57
+U(5)          5.336e-24
+   UO2+            5.336e-24   3.568e-24   -23.273   -23.448    -0.175     10.70
+U(6)          2.888e-29
+   UO2OH+          2.888e-29   1.931e-29   -28.539   -28.714    -0.175     19.83
+   UO2+2           3.110e-35   5.657e-36   -34.507   -35.247    -0.740     12.90
+Zn            2.187e-18
+   ZnOH+           2.169e-18   1.450e-18   -17.664   -17.839    -0.175     -2.87
+   Zn+2            1.827e-20   4.417e-21   -19.738   -20.355    -0.617    -18.61
+   ZnCl+           6.031e-23   4.032e-23   -22.220   -22.394    -0.175    -51.48
+   ZnCl2           1.605e-26   1.605e-26   -25.795   -25.795     0.000    178.24
+   ZnCH3COO+       1.467e-26   9.807e-27   -25.834   -26.008    -0.175     20.53
+   ZnCl3-          8.998e-27   6.016e-27   -26.046   -26.221    -0.175      5.58
+   ZnCl4-2         4.911e-28   7.920e-29   -27.309   -28.101    -0.792    139.69
+   ZnSO4           3.477e-31   3.477e-31   -30.459   -30.459     0.000     27.92
+   Zn(CH3COO)2     1.064e-31   1.064e-31   -30.973   -30.973     0.000     64.72
+   Zn(CH3COO)3-    1.772e-37   1.185e-37   -36.752   -36.926    -0.175    115.57
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(273 K, 412 atm)
+
+  [(6)(CB)(CB)S]  -17.59     50.09   67.68  S
+  [(aro)-O-(aro)] -20.74    -43.11  -22.37  O
+  Afwillite       -22.74     42.45   65.19  Ca3Si2O4(OH)6
+  Akermanite      -10.58     39.55   50.14  Ca2MgSi2O7
+  Al              -94.06     71.48  165.54  Al
+  Al2(SO4)3      -122.22    -96.22   26.00  Al2(SO4)3
+  Alabandite       -1.16     -1.07    0.08  MnS
+  Albite           -2.17      1.46    3.64  NaAlSi3O8
+  Albite_high      -3.67      1.46    5.13  NaAlSi3O8
+  Albite_low       -2.17      1.46    3.64  NaAlSi3O8
+  Alum-K          -54.46    -59.09   -4.63  KAl(SO4)2:12H2O
+  Alunite         -49.99    -45.39    4.60  KAl3(OH)6(SO4)2
+  Amesite-14A     -12.93     76.06   89.00  Mg4Al4Si2O10(OH)8
+  Analcime         -1.24      6.24    7.48  Na.96Al.96Si2.04O6:H2O
+  Andalusite      -12.09      7.88   19.97  Al2SiO5
+  Andradite        -0.00     38.36   38.36  Ca3Fe2(SiO4)3
+  Anhydrite       -14.97    -18.62   -3.65  CaSO4
+  Annite            0.00     33.93   33.93  KFe3AlSi3O10(OH)2
+  Anorthite       -11.70     20.11   31.81  CaAl2(SiO4)2
+  Anthophyllite   -15.01     59.47   74.48  Mg7Si8O22(OH)2
+  Antigorite       -4.36    527.85  532.20  Mg48Si34O85(OH)62
+  Aragonite        -0.20      2.38    2.59  CaCO3
+  Arcanite        -19.84    -21.79   -1.95  K2SO4
+  Artinite         -7.38     14.53   21.90  Mg2CO3(OH)2:3H2O
+  Atacamite       -97.00    -80.55   16.45  Cu4Cl2(OH)6
+  Azurite         -81.81    -70.11   11.70  Cu3(CO3)2(OH)2
+  B               -62.28     57.56  119.84  B
+  B2O3            -20.08    -14.21    5.87  B2O3
+  Bassanite       -15.61    -18.63   -3.02  CaSO4:0.5H2O
+  Bassetite       -53.85    -67.99  -14.14  Fe(UO2)2(PO4)2
+  Beidellite-Ca    -8.69     -1.86    6.83  Ca.175Al2.35Si3.65O10(OH)2
+  Beidellite-Fe    -8.21     -2.86    5.36  Fe.175Al2.35Si3.65O10(OH)2
+  Beidellite-K     -7.39     -2.42    4.97  K.35Al2.35Si3.65O10(OH)2
+  Beidellite-Mg    -8.34     -2.38    5.96  Mg.175Al2.35Si3.65O10(OH)2
+  Beidellite-Na    -6.94     -0.84    6.11  Na.35Al2.35Si3.65O10(OH)2
+  Berlinite       -17.63    -22.81   -5.18  AlPO4
+  Bieberite       -32.14    -34.54   -2.40  CoSO4:7H2O
+  Bixbyite        -19.88    -17.46    2.42  Mn2O3
+  Boehmite         -2.70      6.82    9.51  AlO2H
+  Borax           -15.33     -4.63   10.70  Na2(B4O5(OH)4):8H2O
+  Boric_acid       -6.68     -7.12   -0.43  B(OH)3
+  Bornite          -8.07   -118.38 -110.31  Cu5FeS4
+  Brezinaite      -74.96    -68.28    6.68  Cr3S4
+  Brochantite    -107.24    -88.47   18.77  Cu4(SO4)(OH)6
+  Brucite          -3.06     15.08   18.13  Mg(OH)2
+  Bunsenite        -6.70      7.49   14.19  NiO
+  C                 0.00     70.60   70.60  C
+  C2H4(g)         -23.45    -25.78   -2.33  C2H4
+  C2H6(g)          -1.64     -4.58   -2.94  C2H6
+  C3H8(g)          -4.00     -7.16   -3.16  C3H8
+  Ca              -92.20     61.11  153.30  Ca
+  Ca-Al_Pyroxene  -16.23     25.88   42.10  CaAl2SiO6
+  Ca3Al2O6        -59.53     67.64  127.17  Ca3Al2O6
+  Ca4Al2Fe2O10    -72.53     87.29  159.82  Ca4Al2Fe2O10
+  CaAl2O4         -22.80     31.64   54.44  CaAl2O4
+  CaAl4O7         -35.74     45.28   81.02  CaAl4O7
+  Calcite          -0.08      2.38    2.46  CaCO3
+  Cattierite       -6.03    -37.80  -31.77  CoS2
+  CaUO4           -10.68      7.47   18.15  CaUO4
+  Celadonite       -2.41      6.26    8.67  KMgAlSi4O10(OH)2
+  CH4(g)            1.44     -1.41   -2.85  CH4
+  Chalcanthite    -47.18    -49.61   -2.43  CuSO4:5H2O
+  Chalcedony       -1.46     -5.76   -4.30  SiO2
+  Chalcocite       -4.14    -42.05  -37.91  Cu2S
+  Chalcocyanite   -54.04    -49.58    4.46  CuSO4
+  Chalcopyrite     -0.00    -34.28  -34.28  CuFeS2
+  Chamosite         0.00     57.97   57.97  Fe5Al2Si3O10(OH)8
+  Chloromagnesite -38.14    -13.62   24.53  MgCl2
+  Chromite          0.00     19.88   19.88  FeCr2O4
+  Chrysotile       -0.99     33.71   34.71  Mg3Si2O5(OH)4
+  Clinochlore-14A  -5.75     71.74   77.49  Mg5Al2Si3O10(OH)8
+  Clinochlore-7A   -9.38     71.74   81.12  Mg5Al2Si3O10(OH)8
+  Clinoptilolite-Ca -23.26    -29.09   -5.82  Ca1.7335Al3.45Fe.017Si14.533O36:10.922H2O
+  Clinoptilolite-K -22.29    -34.58  -12.29  K3.467Al3.45Fe.017Si14.533O36:10.922H2O
+  Clinoptilolite-Na -11.62    -18.92   -7.30  Na3.467Al3.45Fe.017Si14.533O36:10.922H2O
+  Clinozoisite    -11.80     39.17   50.96  Ca2Al3Si3O12(OH)
+  Co              -12.88     45.23   58.11  Co
+  CO(g)           -15.83    -18.85   -3.02  CO
+  CO2(g)           -7.90    -15.61   -7.71  CO2
+  Co2SiO4          -9.76     -1.51    8.25  Co2SiO4
+  CoCl2           -36.24    -26.57    9.67  CoCl2
+  CoCl2:2H2O      -32.01    -26.59    5.42  CoCl2:2H2O
+  CoCl2:6H2O      -29.14    -26.61    2.52  CoCl2:6H2O
+  Coesite          -2.03     -5.76   -3.73  SiO2
+  CoFe2O4          -0.00      3.78    3.78  CoFe2O4
+  Coffinite        -2.02     -9.14   -7.12  USiO4
+  CoO             -13.24      2.13   15.37  CoO
+  Cordierite_anhyd -34.49     28.63   63.13  Mg2Al4Si5O18
+  Cordierite_hydr -31.67     28.63   60.30  Mg2Al4Si5O18:H2O
+  Corundum         -9.03     13.64   22.67  Al2O3
+  CoS              -7.33    -14.70   -7.37  CoS
+  CoSO4           -39.03    -34.49    4.54  CoSO4
+  CoSO4:6H2O      -32.45    -34.53   -2.09  CoSO4:6H2O
+  CoSO4:H2O       -34.49    -34.50   -0.02  CoSO4:H2O
+  Covellite        -5.48    -29.78  -24.31  CuS
+  Cr              -41.00     68.44  109.44  Cr
+  CrCl3           -60.37    -39.27   21.10  CrCl3
+  Cristobalite(alpha)  -1.80     -5.76   -3.96  SiO2
+  Cristobalite(beta)  -2.33     -5.76   -3.43  SiO2
+  CrO2            -19.12    -39.54  -20.43  CrO2
+  CrO3            -67.31    -70.56   -3.25  CrO3
+  Cronstedtite-7A   0.00     20.53   20.53  Fe2Fe2SiO5(OH)4
+  CrS             -25.24    -25.36   -0.12  CrS
+  Cu               -4.98     30.15   35.13  Cu
+  CuCl2           -46.32    -41.66    4.66  CuCl2
+  CuCr2O4         -26.39     -5.40   20.99  CuCr2O4
+  Cuprite         -23.02    -25.22   -2.20  Cu2O
+  Daphnite-14A     -3.21     57.97   61.19  Fe5AlAlSi3O10(OH)8
+  Daphnite-7A      -6.89     57.97   64.87  Fe5AlAlSi3O10(OH)8
+  Dawsonite        -2.72      3.13    5.85  NaAlCO3(OH)2
+  Delafossite      -5.85    -11.79   -5.94  CuFeO2
+  Diaspore         -2.23      6.82    9.05  AlHO2
+  Dicalcium_silicate -10.61     30.23   40.84  Ca2SiO4
+  Diopside         -1.55     21.56   23.11  CaMgSi2O6
+  Dioptase        -25.26    -18.73    6.54  CuSiO2(OH)2
+  Dolomite         -1.97      1.85    3.82  CaMg(CO3)2
+  Dolomite-dis     -3.71      1.85    5.56  CaMg(CO3)2
+  Dolomite-ord     -1.96      1.85    3.82  CaMg(CO3)2
+  Enstatite        -3.33      9.32   12.65  MgSiO3
+  Epidote          -6.28     33.17   39.45  Ca2FeAl2Si3O12OH
+  Epidote-ord      -6.29     33.17   39.46  FeCa2Al2(OH)(SiO4)3
+  Eskolaite        -3.49    -11.79   -8.30  Cr2O3
+  Ettringite      -58.67     11.56   70.23  Ca6Al2(SO4)3(OH)12:26H2O
+  Eu              -99.75     82.18  181.93  Eu
+  Eu(OH)3           0.00     17.51   17.51  Eu(OH)3
+  Eu2(SO4)3:8H2O  -66.39    -74.88   -8.49  Eu2(SO4)3:8H2O
+  Eu2O3(cubic)    -23.66     35.03   58.69  Eu2O3
+  Eu2O3(monoclinic) -25.41     35.03   60.44  Eu2O3
+  Eu3O4           -54.30     43.00   97.30  Eu3O4
+  EuCl2           -27.38    -20.73    6.65  EuCl2
+  EuCl3           -48.10    -25.54   22.56  EuCl3
+  EuCl3:6H2O      -31.27    -25.58    5.69  EuCl3:6H2O
+  Eucryptite       -5.89     10.15   16.05  LiAlSiO4
+  EuOCl           -15.01      3.17   18.18  EuOCl
+  EuS             -25.46     -8.85   16.61  EuS
+  EuSO4           -19.61    -28.65   -9.04  EuSO4
+  Fayalite         -2.81     18.90   21.71  Fe2SiO4
+  Fe               -9.72     55.44   65.16  Fe
+  Fe(OH)2          -3.20     12.32   15.53  Fe(OH)2
+  Fe(OH)3          -6.24      0.82    7.05  Fe(OH)3
+  Fe2(SO4)3      -116.44   -108.21    8.23  Fe2(SO4)3
+  FeO              -3.01     12.33   15.34  FeO
+  Ferrite-Ca       -6.42     19.65   26.07  CaFe2O4
+  Ferrite-Cu      -25.37    -11.31   14.06  CuFe2O4
+  Ferrite-Dicalcium -27.26     37.65   64.91  Ca2Fe2O5
+  Ferrite-Mg       -9.11     16.74   25.84  MgFe2O4
+  Ferrite-Zn       -9.68      6.02   15.70  ZnFe2O4
+  Ferrosilite      -1.84      6.57    8.40  FeSiO3
+  FeSO4           -28.48    -24.29    4.19  FeSO4
+  Forsterite       -6.84     24.40   31.25  Mg2SiO4
+  Foshagite       -17.20     54.70   71.89  Ca4Si3O9(OH)2:0.5H2O
+  Gd             -112.97     85.81  198.79  Gd
+  Gehlenite       -20.80     43.88   64.68  Ca2Al2SiO7
+  Gibbsite         -2.67      6.81    9.48  Al(OH)3
+  Goethite         -0.79      0.82    1.61  FeOOH
+  Greenalite       -0.08     25.45   25.53  Fe3Si2O5(OH)4
+  Grossular        -8.79     50.35   59.13  Ca3Al2(SiO4)3
+  Gypsum          -14.50    -18.64   -4.14  CaSO4:2H2O
+  Gyrolite         -5.52     18.69   24.21  Ca2Si3O7(OH)2:1.5H2O
+  H2(g)            -4.34     -7.53   -3.19  H2
+  H2O(g)           -2.16     -0.01    2.16  H2O
+  H2S(g)           -8.61    -16.83   -8.22  H2S
+  Halite           -4.00     -2.42    1.58  NaCl
+  Hatrurite       -32.43     48.23   80.67  Ca3SiO5
+  Hausmannite     -16.59     -1.70   14.89  Mn3O4
+  Heazlewoodite    -1.08     31.93   33.01  Ni3S2
+  Hedenbergite     -2.84     18.80   21.64  CaFe(SiO3)2
+  Hematite         -0.72      1.65    2.37  Fe2O3
+  Hercynite        -8.85     25.97   34.82  FeAl2O4
+  Hillebrandite    -9.98     30.23   40.21  Ca2SiO3(OH)2:0.17H2O
+  Huntite         -12.92      0.79   13.71  CaMg3(CO3)4
+  Hydromagnesite  -23.42     12.93   36.34  Mg5(CO3)4(OH)2:4H2O
+  Hydrophilite    -23.97    -10.70   13.27  CaCl2
+  Hydroxyapatite    0.00      1.09    1.09  Ca5(OH)(PO4)3
+  Ice              -0.07     -0.01    0.06  H2O
+  Ilmenite          0.00      1.17    1.17  FeTiO3
+  Jadeite          -2.49      7.22    9.72  NaAl(SiO3)2
+  Jarosite        -57.78    -63.37   -5.59  KFe3(SO4)2(OH)6
+  K               -48.56     28.97   77.53  K
+  K-Feldspar       -3.18     -3.05    0.12  KAlSi3O8
+  K2O             -76.06     14.83   90.89  K2O
+  KAl(SO4)2       -65.69    -59.01    6.69  KAl(SO4)2
+  Kalsilite        -4.29      8.47   12.76  KAlSiO4
+  Kaolinite        -7.26      2.10    9.36  Al2Si2O5(OH)4
+  KerogenC128    -505.06  11016.7511521.82  C128H68O7
+  KerogenC292    -697.56  28166.6028864.16  C292H288O12
+  KerogenC515    -2235.12  49383.6051618.73  C515H596O72
+  Kyanite         -11.70      7.88   19.57  Al2SiO5
+  Larnite         -12.00     30.23   42.23  Ca2SiO4
+  Laumontite       -8.25      8.56   16.81  CaAl2Si4O12:4H2O
+  Lawrencite      -26.97    -16.37   10.60  FeCl2
+  Lawsonite        -6.16     20.10   26.26  CaAl2Si2O7(OH)2:H2O
+  Li              -48.90     30.65   79.55  Li
+  Lime            -17.80     18.00   35.80  CaO
+  Linnaeite       -14.02   -127.29 -113.27  Co3S4
+  Lizardite         0.00     33.71   33.71  Mg3Si2O5(OH)4
+  Lopezite       -107.92   -126.28  -18.37  K2Cr2O7
+  Magnesiochromite  -4.32     22.64   26.96  MgCr2O4
+  Magnesite        -3.69     -0.53    3.16  MgCO3
+  Magnetite        -0.27     13.98   14.25  Fe3O4
+  Malachite       -49.00    -41.54    7.47  Cu2CO3(OH)2
+  Manganosite      -4.20     15.75   19.95  MnO
+  Margarite       -16.26     33.75   50.01  CaAl4Si2O10(OH)2
+  Maximum_Microcline  -3.17     -3.05    0.12  KAlSi3O8
+  Mayenite       -252.42    311.47  563.89  Ca12Al14O33
+  Melanterite     -22.06    -24.34   -2.28  FeSO4:7H2O
+  Merwinite       -18.12     57.55   75.68  MgCa3(SiO4)2
+  Mesolite         -0.71     16.10   16.80  Na.676Ca.657Al1.99Si3.01O10:2.647H2O
+  Mg              -76.49     58.19  134.68  Mg
+  MgOHCl          -17.19      0.73   17.92  MgOHCl
+  MgSO4           -28.23    -21.54    6.69  MgSO4
+  Millerite        -1.23     -9.34   -8.10  NiS
+  Minnesotaite     -1.83     13.93   15.76  Fe3Si4O10(OH)2
+  Mirabilite      -10.82    -12.83   -2.01  Na2SO4:10H2O
+  Mn              -32.23     58.86   91.09  Mn
+  Mn(OH)2(am)      -1.16     15.75   16.90  Mn(OH)2
+  MnCl2:2H2O      -17.61    -12.96    4.65  MnCl2:2H2O
+  MnCl2:4H2O      -15.96    -12.97    2.99  MnCl2:4H2O
+  MnCl2:H2O       -19.30    -12.95    6.35  MnCl2:H2O
+  MnSO4           -24.92    -20.87    4.05  MnSO4
+  Mo              -20.96     99.62  120.57  Mo
+  Molysite        -58.31    -42.23   16.08  FeCl3
+  Monohydrocalcite  -0.82      2.38    3.20  CaCO3:H2O
+  Monticellite     -5.54     27.32   32.86  CaMgSiO4
+  Montmor-Ca       -7.44     -3.38    4.06  Ca.175Mg.35Al1.65Si4O10(OH)2
+  Montmor-K        -6.75     -3.93    2.82  K.35Mg.35Al1.65Si4O10(OH)2
+  Montmor-Mg       -7.29     -3.89    3.40  Mg.525Al1.65Si4O10(OH)2
+  Montmor-Na       -6.40     -2.35    4.05  Na.35Mg.35Al1.65Si4O10(OH)2
+  Mordenite        -7.74    -13.26   -5.51  Ca.2895Na.361Al.94Si5.06O12:3.468H2O
+  Morenosite      -27.23    -29.18   -1.95  NiSO4:7H2O
+  Muscovite        -7.13     10.58   17.71  KAl3Si3O10(OH)2
+  N2(g)           -19.34    -22.56   -3.22  N2
+  Na              -40.17     33.48   73.65  Na
+  Na2CO3           -3.73      8.25   11.98  Na2CO3
+  Na2CO3:7H2O      -1.48      8.20    9.68  Na2CO3:7H2O
+  Na2Cr2O7       -107.27   -117.25   -9.99  Na2Cr2O7
+  Na2CrO4         -50.19    -46.70    3.50  Na2CrO4
+  Na2O            -49.29     23.86   73.15  Na2O
+  Na2SiO3          -5.51     18.10   23.61  Na2SiO3
+  Na2U2O7         -22.72      2.81   25.52  Na2U2O7
+  NaFeO2           -9.95     12.76   22.71  NaFeO2
+  Nahcolite        -3.43     -3.69   -0.25  NaHCO3
+  Nantokite       -19.60    -26.96   -7.36  CuCl
+  Natrolite        -1.64     20.20   21.84  Na2Al2Si3O10:2H2O
+  Natron           -0.66      8.18    8.84  Na2CO3:10H2O
+  Natrosilite      -6.60     12.33   18.93  Na2Si2O5
+  NaUO3            -8.53      0.84    9.37  NaUO3
+  Nepheline        -3.15     12.99   16.14  NaAlSiO4
+  Nesquehonite     -6.94     -0.55    6.39  MgCO3:3H2O
+  NH3(g)          -12.56    -10.38    2.18  NH3
+  NH4-feldspar     -3.86    -10.74   -6.88  NH4AlSi3O8
+  NH4-muscovite     0.00      2.89    2.89  NH4Al3Si3O10(OH)2
+  NH4Cl           -15.51    -14.62    0.88  NH4Cl
+  NH4HCO3         -15.60    -15.89   -0.29  NH4HCO3
+  Ni               -5.91     50.60   56.51  Ni
+  Ni(OH)2          -6.89      7.48   14.37  Ni(OH)2
+  Ni2SiO4          -7.31      9.22   16.53  Ni2SiO4
+  Nickelbischofite -24.47    -21.25    3.22  NiCl2:6H2O
+  NiCl2           -31.26    -21.21   10.05  NiCl2
+  NiCl2:2H2O      -25.84    -21.22    4.62  NiCl2:2H2O
+  Ningyoite       -16.27    -44.66  -28.39  CaUP2O8:2H2O
+  NiSO4           -36.27    -29.13    7.14  NiSO4
+  NiSO4:6H2O(alpha) -27.39    -29.17   -1.78  NiSO4:6H2O
+  Niter          -106.20   -106.90   -0.69  KNO3
+  NO(g)           -67.72    -66.51    1.21  NO
+  NO2(g)         -101.96    -92.76    9.20  NO2
+  Nontronite-Ca    -5.66    -13.85   -8.20  Ca.175Fe2Al.35Si3.65H2O12
+  Nontronite-K     -4.37    -14.41  -10.04  K.35Fe2Al.35Si3.65H2O12
+  Nontronite-Mg    -5.30    -14.36   -9.06  Mg.175Fe2Al.35Si3.65H2O12
+  Nontronite-Na    -3.93    -12.83   -8.90  Na.35Fe2Al.35Si3.65H2O12
+  O2(g)           -83.34    -86.22   -2.88  O2
+  Okenite          -4.24      6.46   10.70  CaSi2O4(OH)2:H2O
+  P               -67.99     78.13  146.12  P
+  Paragonite       -7.10     15.10   22.19  NaAl3Si3O10(OH)2
+  Pargasite       -22.54     94.14  116.68  NaCa2Al3Mg4Si6O22(OH)2
+  Periclase        -8.74     15.08   23.82  MgO
+  Petalite         -3.54     -7.14   -3.60  LiAlSi4O10
+  Phlogopite       -0.42     42.19   42.61  KAlMg3Si3O10(OH)2
+  Polydymite       -0.00    -51.11  -51.11  Ni3S4
+  Portlandite      -6.73     17.99   24.73  Ca(OH)2
+  Prehnite         -5.87     32.34   38.22  Ca2Al2Si3O10(OH)2
+  Pseudowollastonite  -3.09     12.24   15.32  CaSiO3
+  Pyridine        -45.16    481.36  526.52  C5H5N
+  Pyrite            0.00    -26.27  -26.27  FeS2
+  Pyrolusite      -25.84    -44.72  -18.88  MnO2
+  Pyrophyllite    -11.46     -9.42    2.04  Al2Si4O10(OH)2
+  Pyrrhotite       -1.02     -4.50   -3.47  FeS
+  Quartz           -1.17     -5.76   -4.60  SiO2
+  Rankinite       -14.49     42.47   56.96  Ca3Si2O7
+  Rhodochrosite    -0.16      0.14    0.30  MnCO3
+  Rhodonite        -0.79      9.99   10.78  MnSiO3
+  Ripidolite      -16.28     66.23   82.51  Mg3Fe2Al2Si3O10(OH)8
+  Rutherfordine   -22.50    -26.14   -3.65  UO2CO3
+  Rutile           -1.66    -11.16   -9.50  TiO2
+  S               -10.60    -59.93  -49.33  S
+  Saleeite        -49.51    -65.24  -15.73  Mg(UO2)2(PO4)2
+  Sanidine_high    -4.55     -3.05    1.50  KAlSi3O8
+  Saponite-Fe-Ca   -1.75     21.48   23.24  Ca.175Fe3Al.35Si3.65O10(OH)2
+  Saponite-Fe-Fe   -1.28     20.49   21.77  Fe3.175Al.35Si3.65O10(OH)2
+  Saponite-Fe-K    -0.45     20.93   21.38  K.35Fe3Al.35Si3.65O10(OH)2
+  Saponite-Fe-Mg   -1.39     20.97   22.37  Mg.175Fe3Al.35Si3.65O10(OH)2
+  Saponite-Fe-Na   -0.00     22.51   22.51  Na.35Fe3Al.35Si3.65O10(OH)2
+  Saponite-Mg-Ca   -2.87     29.74   32.61  Ca.175Mg3Al.35Si3.65O10(OH)2
+  Saponite-Mg-Fe   -2.35     28.75   31.11  Fe.175Mg3Al.35Si3.65O10(OH)2
+  Saponite-Mg-K    -1.58     29.19   30.77  K.35Mg3Al.35Si3.65O10(OH)2
+  Saponite-Mg-Mg   -2.50     29.23   31.73  Mg3.175Al.35Si3.65O10(OH)2
+  Saponite-Mg-Na   -1.14     30.77   31.91  Na.35Mg3Al.35Si3.65O10(OH)2
+  Sc              -86.55     97.50  184.05  Sc
+  Scacchite       -23.02    -12.95   10.08  MnCl2
+  Schoepite       -16.20    -10.54    5.66  UO3:2H2O
+  Scolecite        -5.13     14.33   19.46  CaAl2Si3O10:3H2O
+  Sepiolite        -7.07     25.71   32.78  Mg4Si6O15(OH)2:6H2O
+  Si              -82.34     80.45  162.79  Si
+  Siderite         -3.79     -3.28    0.51  FeCO3
+  Sillimanite     -12.50      7.88   20.38  Al2SiO5
+  SiO2(am)         -2.72     -5.76   -3.04  SiO2
+  Sm             -112.90     33.02  145.92  Sm
+  Smectite-high-Fe-Mg  -5.59     15.15   20.74  Ca.025Na.1K.2Fe.5Fe.2Mg1.15Al1.25Si3.5H2O12
+  Smectite-low-Fe-Mg  -5.60      7.82   13.42  Ca.02Na.15K.2Fe.29Fe.16Mg.9Al1.25Si3.75H2O12
+  Smithsonite     -12.37    -11.25    1.12  ZnCO3
+  SO2(g)          -36.48    -36.12    0.36  SO2
+  Sphaerocobaltite -13.93    -13.49    0.44  CoCO3
+  Sphalerite       -0.61    -12.46  -11.85  ZnS
+  Spinel          -15.70     28.72   44.43  Al2MgO4
+  Spinel-Co       -55.87    -59.99   -4.12  Co3O4
+  Spodumene        -3.98      4.39    8.37  LiAlSi2O6
+  Stilbite         -6.90     -4.48    2.42  Ca1.019Na.136K.006Al2.18Si6.82O18:7.33H2O
+  Strengite       -18.38    -28.82  -10.44  FePO4:2H2O
+  Sylvite          -7.55     -6.93    0.61  KCl
+  Talc             -1.27     22.19   23.46  Mg3Si4O10(OH)2
+  Tarapacaite     -55.21    -55.73   -0.51  K2CrO4
+  Tenorite        -21.78    -12.96    8.83  CuO
+  Tephroite         0.00     25.74   25.74  Mn2SiO4
+  Th             -141.10     90.13  231.23  Th
+  Th(NO3)4:5H2O  -455.86   -453.37    2.49  Th(NO3)4:5H2O
+  Th(SO4)2        -50.59    -69.32  -18.73  Th(SO4)2
+  Th2S3          -107.86      0.47  108.33  Th2S3
+  Th7S12         -326.08    -88.26  237.82  Th7S12
+  ThCl4           -81.61    -53.48   28.12  ThCl4
+  Thenardite      -12.82    -12.76    0.06  Na2SO4
+  Thermonatrite    -3.29      8.24   11.53  Na2CO3:H2O
+  Thorianite       -0.00      3.92    3.92  ThO2
+  ThS2            -43.58    -29.73   13.84  ThS2
+  Ti              -74.54     75.06  149.59  Ti
+  Ti2O3           -22.55     20.79   43.34  Ti2O3
+  Ti3O5           -25.51      9.63   35.13  Ti3O5
+  TiB2           -122.76    190.17  312.93  TiB2
+  TiC             -36.64    145.66  182.29  TiC
+  TiCl2           -67.95      3.25   71.20  TiCl2
+  TiCl3           -72.27    -32.66   39.61  TiCl3
+  TiN             -35.37      0.02   35.39  TiN
+  Titanite       -718.76      1.08  719.84  CaTiSiO5
+  Tobermorite-11A -14.79     55.38   70.17  Ca5Si6H11O22.5
+  Tremolite        -2.42     65.30   67.72  Ca2Mg5Si8O22(OH)2
+  Trevorite        -4.45      9.14   13.60  NiFe2O4
+  Tridymite        -1.40     -5.76   -4.37  SiO2
+  Troilite         -0.92     -4.50   -3.58  FeS
+  U              -114.72    118.80  233.52  U
+  U2O2Cl5        -110.06    -86.22   23.85  U2O2Cl5
+  U3S5           -124.51   -120.70    3.81  U3S5
+  UC              -95.83    118.67  214.50  UC
+  UCl3            -74.91    -59.65   15.26  UCl3
+  UCl4            -86.86    -60.78   26.08  UCl4
+  UCl6           -160.53    -96.63   63.90  UCl6
+  UH3(beta)      -106.57    112.72  219.29  UH3
+  UN              -73.95    -26.97   46.98  UN
+  UO2(NO3)2      -253.01   -239.15   13.86  UO2(NO3)2
+  UO2(NO3)2:6H2O -241.27   -239.19    2.07  UO2(NO3)2:6H2O
+  UO2(OH)2(beta)  -16.42    -10.53    5.89  UO2(OH)2
+  UO2SO4          -51.11    -47.15    3.96  UO2SO4
+  UO2SO4:3H2O     -46.59    -47.17   -0.58  UO2SO4:3H2O
+  UO3(beta)       -20.22    -10.53    9.70  UO3
+  Uraninite        -0.00     -3.38   -3.38  UO2
+  Vaesite          -2.74    -31.11  -28.37  NiS2
+  Wairakite       -13.60      8.57   22.18  CaAl2Si4O10(OH)4
+  Wollastonite     -2.80     12.24   15.04  CaSiO3
+  Wurtzite         -3.12    -12.46   -9.34  ZnS
+  Wustite          -3.70     10.46   14.16  Fe.947O
+  Xonotlite       -26.80     73.41  100.20  Ca6Si6O17(OH)2
+  Zincite          -8.39      4.37   12.76  ZnO
+  Zn              -28.44     47.47   75.92  Zn
+  Zn(NO3)2:6H2O  -227.43   -224.30    3.13  Zn(NO3)2:6H2O
+  Zn(OH)2(beta)    -9.06      4.36   13.42  Zn(OH)2
+  Zn(OH)2(epsilon)  -8.77      4.36   13.13  Zn(OH)2
+  Zn2SiO4         -13.04      2.97   16.00  Zn2SiO4
+  ZnCl2           -32.76    -24.34    8.43  ZnCl2
+  ZnCr2O4           0.00     11.92   11.92  ZnCr2O4
+  ZnSO4           -37.47    -32.26    5.21  ZnSO4
+  ZnSO4:6H2O      -30.92    -32.30   -1.37  ZnSO4:6H2O
+  Zoisite         -11.86     39.17   51.03  Ca2Al3(SiO4)3OH
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 3.
+------------------------------------
+
+----------------------------------
+End of Run after 0.718345 Seconds.
+----------------------------------
+
