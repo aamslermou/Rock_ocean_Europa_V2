@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 import subprocess
 import os 
 from scipy.optimize import fsolve
-from tqdm import tqdm
+#from tqdm import tqdm
 
 from PHREEQC_functions import create_pqi_file, run_phreeqc, create_pqi_file_transport
 database_file = "/Users/aamsler/Desktop/phreeqc-3.5.0-14000/database/core10.dat"  # Adjust the database path
 
-from L_V_equilibrium import L_V_equilibrium
+from L_V_equilibrium_version_PC import L_V_equilibrium
 from Saturation_pressure import P_sat_water
 from Compo_ocean_Moon import compo_67P
 # %%                                 ##### Constants and Parameters #####
@@ -48,7 +48,7 @@ species = pd.DataFrame(np.array([['H2O', 647.3, 220.6*1e5, 0.3434, 18.01528, 0, 
               columns = ['formula', 'Tc', 'Pc', 'w', 'M','charge', 'r_coeff', 
                 'q_coeff'])
 
-species_phi   = pd.concat([species[:3],species[9:]], ignore_index=True)
+species_phi = pd.concat([species[:3],species[9:]], ignore_index=True)
                                         #######
 
 
@@ -111,7 +111,10 @@ database_file = "/Users/aamsler/Desktop/phreeqc-3.5.0-14000/database/core10.dat"
 
 # Yannis' input : 
 
-Accretion_variables = pd.read_csv('Input accretion model/1Myr_270K.csv', delimiter = ";")
+# Expected format for 'Input accretion model/1.0Myr_250K_3000.csv':
+# Columns: 't' (time, float), 'M_Europa' (mass of Europa, float), 'T_surf' (surface temperature, float), 'R_Europa' (radius of Europa, float)
+# Delimiter: space (" ")
+Accretion_variables = pd.read_csv('Input accretion model/1.0Myr_250K_3000.csv', delimiter = " ")
 
 time        = Accretion_variables['t']
 M_evolution = Accretion_variables['M_Europa']
